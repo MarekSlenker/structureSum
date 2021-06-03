@@ -1,0 +1,5337 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   ./structure -K 3 -L 910 -N 42 -m mainparams_alyssum -e extraparams_LOCPRIOR_0 -D 404573004 -i acrUlTen_111.STRUCTURE -o ./STR_RES/acrUlTen_111_K3 
+Input File:    acrUlTen_111.STRUCTURE
+
+Run parameters:
+   42 individuals
+   910 loci
+   3 populations assumed
+   60000 Burn-in period
+   340000 Reps
+
+
+--------------------------------------------
+Overall proportion of membership of the
+sample in each of the 3 clusters
+
+Inferred Clusters
+  1      2      3    
+0.071  0.715  0.214  
+
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1       2       3      
+ 1      -    0.0531  0.0856  
+ 2   0.0531     -    0.0640  
+ 3   0.0856  0.0640     -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.0808 
+cluster  2  : 0.0975 
+cluster  3  : 0.1489 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -14143.5
+Mean value of ln likelihood = -13048.9
+Variance of ln likelihood   = 2189.4
+Mean value of alpha         = 0.0269
+
+Mean value of Fst_1         = 0.7106
+Mean value of Fst_2         = 0.4358
+Mean value of Fst_3         = 0.4087
+
+
+Inferred ancestry of individuals:
+        Label (%Miss) :  Inferred clusters
+  1 acraC015_10    (0)   :  0.000 0.001 0.999 
+  2 acraC019_10    (0)   :  0.000 0.000 0.999 
+  3 acrpC012_10    (0)   :  0.000 0.000 0.999 
+  4 acrvC004_10    (0)   :  0.000 0.000 0.999 
+  5 penBAH4.ded    (0)   :  0.000 0.001 0.999 
+  6 penDEM7.ded    (0)   :  0.000 0.001 0.999 
+  7 penSOZO8.de    (0)   :  0.000 0.001 0.999 
+  8 seiBES1.ded    (0)   :  0.097 0.903 0.000 
+  9 seiGRJS1.de    (0)   :  0.000 0.999 0.001 
+ 10 seiKCA1.ded    (0)   :  0.000 0.999 0.000 
+ 11 seiKD3.dedu    (0)   :  0.000 0.999 0.000 
+ 12 seiTRD2.ded    (0)   :  0.001 0.999 0.000 
+ 13 seiTREA4.de    (0)   :  0.000 1.000 0.000 
+ 14 tenCF9.dedu    (0)   :  0.510 0.490 0.001 
+ 15 tenKU25.ded    (0)   :  0.488 0.512 0.000 
+ 16 tenTAL123.d    (0)   :  0.916 0.084 0.000 
+ 17 tenTAL17.de    (0)   :  0.919 0.081 0.000 
+ 18 ulAM11_7.de    (0)   :  0.001 0.999 0.001 
+ 19 ulAM1_2.ded    (0)   :  0.001 0.999 0.000 
+ 20 ulAM2_2.ded    (0)   :  0.000 0.999 0.000 
+ 21 ulAM5_4.ded    (0)   :  0.009 0.990 0.000 
+ 22 ulAM9_1.ded    (0)   :  0.006 0.994 0.000 
+ 23 ulGRC7.dedu    (0)   :  0.001 0.998 0.000 
+ 24 ulIR9CA2_1.    (0)   :  0.003 0.997 0.000 
+ 25 ulIRCA1_2.d    (0)   :  0.001 0.999 0.000 
+ 26 ulKA5.dedup    (0)   :  0.001 0.999 0.000 
+ 27 ulKB4.dedup    (0)   :  0.002 0.998 0.000 
+ 28 ulKHR31.ded    (0)   :  0.000 0.999 0.000 
+ 29 ulKII_5.ded    (0)   :  0.000 0.998 0.001 
+ 30 ulKZ1_3.ded    (0)   :  0.001 0.999 0.000 
+ 31 ulLB1_2.ded    (0)   :  0.000 1.000 0.000 
+ 32 ulLB3_4.ded    (0)   :  0.000 1.000 0.000 
+ 33 ulLB4_15.de    (0)   :  0.000 1.000 0.000 
+ 34 ulRL2.dedup    (0)   :  0.000 0.999 0.000 
+ 35 ulTRA2.dedu    (0)   :  0.009 0.991 0.000 
+ 36 ulTRF2.dedu    (0)   :  0.000 0.999 0.000 
+ 37 ulTRH5.dedu    (0)   :  0.001 0.999 0.000 
+ 38 ulTRO1.dedu    (0)   :  0.001 0.999 0.000 
+ 39 ulUD4.dedup    (0)   :  0.000 0.000 0.999 
+ 40 ulUD9.dedup    (0)   :  0.000 0.000 1.000 
+ 41 ulUSH_105.d    (0)   :  0.002 0.998 0.000 
+ 42 xammMWH1_12    (0)   :  0.000 1.000 0.000 
+
+
+Estimated Allele Frequencies in each cluster
+First column gives estimated ancestral frequencies
+
+
+Locus 1 : SNP167 
+2 alleles
+0.0% missing data
+   2   (0.534) 0.267 0.937 0.297 
+   4   (0.466) 0.733 0.063 0.703 
+
+Locus 2 : SNP751 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 3 : SNP420 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.988 0.996 0.781 
+   1   (0.184) 0.012 0.004 0.219 
+
+Locus 4 : SNP112 
+2 alleles
+0.0% missing data
+   2   (0.804) 0.987 0.996 0.677 
+   1   (0.196) 0.013 0.004 0.323 
+
+Locus 5 : SNP488 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 6 : SNP1047 
+2 alleles
+0.0% missing data
+   3   (0.494) 0.123 0.783 0.551 
+   1   (0.506) 0.877 0.217 0.449 
+
+Locus 7 : SNP197 
+2 alleles
+0.0% missing data
+   2   (0.817) 0.988 0.996 0.780 
+   1   (0.183) 0.012 0.004 0.220 
+
+Locus 8 : SNP281 
+2 alleles
+0.0% missing data
+   2   (0.831) 0.772 0.987 0.987 
+   1   (0.169) 0.228 0.013 0.013 
+
+Locus 9 : SNP128 
+2 alleles
+0.0% missing data
+   4   (0.367) 0.967 0.009 0.439 
+   1   (0.633) 0.033 0.991 0.561 
+
+Locus 10 : SNP370 
+2 alleles
+0.0% missing data
+   1   (0.205) 0.014 0.004 0.427 
+   2   (0.795) 0.986 0.996 0.573 
+
+Locus 11 : SNP167 
+2 alleles
+0.0% missing data
+   3   (0.402) 0.069 0.102 0.750 
+   4   (0.598) 0.931 0.898 0.250 
+
+Locus 12 : SNP321 
+2 alleles
+0.0% missing data
+   3   (0.501) 0.489 0.517 0.500 
+   1   (0.499) 0.511 0.483 0.500 
+
+Locus 13 : SNP1534 
+2 alleles
+0.0% missing data
+   2   (0.665) 0.977 0.747 0.769 
+   1   (0.335) 0.023 0.253 0.231 
+
+Locus 14 : SNP136 
+2 alleles
+0.0% missing data
+   3   (0.831) 0.980 0.965 0.987 
+   1   (0.169) 0.020 0.035 0.013 
+
+Locus 15 : SNP134 
+2 alleles
+0.0% missing data
+   2   (0.176) 0.012 0.004 0.168 
+   4   (0.824) 0.988 0.996 0.832 
+
+Locus 16 : SNP20 
+2 alleles
+0.0% missing data
+   4   (0.726) 0.641 0.863 0.980 
+   2   (0.274) 0.359 0.137 0.020 
+
+Locus 17 : SNP95 
+2 alleles
+0.0% missing data
+   1   (0.822) 0.971 0.949 0.987 
+   3   (0.178) 0.029 0.051 0.013 
+
+Locus 18 : SNP177 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 19 : SNP1397 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 20 : SNP269 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 21 : SNP805 
+2 alleles
+0.0% missing data
+   4   (0.831) 0.381 0.996 0.987 
+   2   (0.169) 0.619 0.004 0.013 
+
+Locus 22 : SNP136 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 23 : SNP66 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   3   (0.165) 0.011 0.036 0.012 
+
+Locus 24 : SNP184 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 25 : SNP252 
+2 alleles
+0.0% missing data
+   3   (0.804) 0.987 0.996 0.677 
+   1   (0.196) 0.013 0.004 0.323 
+
+Locus 26 : SNP313 
+2 alleles
+0.0% missing data
+   2   (0.828) 0.987 0.948 0.987 
+   1   (0.172) 0.013 0.052 0.013 
+
+Locus 27 : SNP592 
+2 alleles
+0.0% missing data
+   4   (0.751) 0.983 0.979 0.826 
+   2   (0.249) 0.017 0.021 0.174 
+
+Locus 28 : SNP444 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 29 : SNP182 
+2 alleles
+0.0% missing data
+   2   (0.462) 0.869 0.201 0.240 
+   4   (0.538) 0.131 0.799 0.760 
+
+Locus 30 : SNP492 
+2 alleles
+0.0% missing data
+   2   (0.460) 0.027 0.741 0.548 
+   1   (0.540) 0.973 0.259 0.452 
+
+Locus 31 : SNP73 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 32 : SNP22 
+2 alleles
+0.0% missing data
+   1   (0.813) 0.988 0.898 0.986 
+   3   (0.187) 0.012 0.102 0.014 
+
+Locus 33 : SNP289 
+2 alleles
+0.0% missing data
+   2   (0.309) 0.024 0.022 0.641 
+   1   (0.691) 0.976 0.978 0.359 
+
+Locus 34 : SNP69 
+2 alleles
+0.0% missing data
+   4   (0.834) 0.989 0.964 0.988 
+   2   (0.166) 0.011 0.036 0.012 
+
+Locus 35 : SNP141 
+2 alleles
+0.0% missing data
+   1   (0.715) 0.137 0.950 0.979 
+   3   (0.285) 0.863 0.050 0.021 
+
+Locus 36 : SNP1752 
+2 alleles
+0.0% missing data
+   4   (0.346) 0.137 0.125 0.231 
+   2   (0.654) 0.863 0.875 0.769 
+
+Locus 37 : SNP216 
+3 alleles
+0.0% missing data
+   3   (0.663) 0.977 0.993 0.563 
+   2   (0.169) 0.011 0.004 0.218 
+   1   (0.168) 0.011 0.004 0.219 
+
+Locus 38 : SNP102 
+2 alleles
+0.0% missing data
+   2   (0.460) 0.356 0.012 0.960 
+   4   (0.540) 0.644 0.988 0.040 
+
+Locus 39 : SNP71 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 40 : SNP208 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 41 : SNP367 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 42 : SNP11 
+2 alleles
+0.0% missing data
+   3   (0.184) 0.012 0.004 0.219 
+   1   (0.816) 0.988 0.996 0.781 
+
+Locus 43 : SNP82 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 44 : SNP134 
+2 alleles
+0.0% missing data
+   1   (0.803) 0.987 0.832 0.985 
+   3   (0.197) 0.013 0.168 0.015 
+
+Locus 45 : SNP166 
+2 alleles
+0.0% missing data
+   2   (0.168) 0.011 0.004 0.115 
+   4   (0.832) 0.989 0.996 0.885 
+
+Locus 46 : SNP1276 
+2 alleles
+0.0% missing data
+   1   (0.498) 0.057 0.073 0.963 
+   3   (0.502) 0.943 0.927 0.037 
+
+Locus 47 : SNP105 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 48 : SNP235 
+2 alleles
+0.0% missing data
+   2   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 49 : SNP794 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 50 : SNP387 
+2 alleles
+0.0% missing data
+   1   (0.816) 0.988 0.898 0.986 
+   3   (0.184) 0.012 0.102 0.014 
+
+Locus 51 : SNP14 
+2 alleles
+0.0% missing data
+   1   (0.813) 0.988 0.898 0.986 
+   3   (0.187) 0.012 0.102 0.014 
+
+Locus 52 : SNP221 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 53 : SNP954 
+2 alleles
+0.0% missing data
+   3   (0.336) 0.023 0.007 0.950 
+   2   (0.664) 0.977 0.993 0.050 
+
+Locus 54 : SNP135 
+2 alleles
+0.0% missing data
+   1   (0.551) 0.371 0.820 0.607 
+   3   (0.449) 0.629 0.180 0.393 
+
+Locus 55 : SNP51 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 56 : SNP93 
+2 alleles
+0.0% missing data
+   4   (0.474) 0.378 0.446 0.447 
+   2   (0.526) 0.622 0.554 0.553 
+
+Locus 57 : SNP59 
+2 alleles
+0.0% missing data
+   4   (0.728) 0.982 0.847 0.929 
+   2   (0.272) 0.018 0.153 0.071 
+
+Locus 58 : SNP77 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.988 0.964 0.988 
+   4   (0.165) 0.012 0.036 0.012 
+
+Locus 59 : SNP452 
+2 alleles
+0.0% missing data
+   2   (0.808) 0.987 0.865 0.986 
+   1   (0.192) 0.013 0.135 0.014 
+
+Locus 60 : SNP904 
+2 alleles
+0.0% missing data
+   1   (0.818) 0.988 0.996 0.781 
+   2   (0.182) 0.012 0.004 0.219 
+
+Locus 61 : SNP1008 
+3 alleles
+0.0% missing data
+   3   (0.708) 0.980 0.945 0.978 
+   1   (0.152) 0.010 0.036 0.011 
+   4   (0.140) 0.009 0.019 0.011 
+
+Locus 62 : SNP76 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 63 : SNP271 
+2 alleles
+0.0% missing data
+   4   (0.794) 0.986 0.996 0.574 
+   2   (0.206) 0.014 0.004 0.426 
+
+Locus 64 : SNP223 
+2 alleles
+0.0% missing data
+   1   (0.831) 0.989 0.996 0.885 
+   2   (0.169) 0.011 0.004 0.115 
+
+Locus 65 : SNP181 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 66 : SNP277 
+2 alleles
+0.0% missing data
+   4   (0.491) 0.510 0.483 0.448 
+   1   (0.509) 0.490 0.517 0.552 
+
+Locus 67 : SNP172 
+2 alleles
+0.0% missing data
+   3   (0.815) 0.988 0.898 0.986 
+   1   (0.185) 0.012 0.102 0.014 
+
+Locus 68 : SNP278 
+2 alleles
+0.0% missing data
+   4   (0.846) 0.990 0.980 0.988 
+   2   (0.154) 0.010 0.020 0.012 
+
+Locus 69 : SNP1342 
+2 alleles
+0.0% missing data
+   3   (0.811) 0.987 0.996 0.729 
+   1   (0.189) 0.013 0.004 0.271 
+
+Locus 70 : SNP552 
+2 alleles
+0.0% missing data
+   1   (0.228) 0.015 0.005 0.634 
+   3   (0.772) 0.985 0.995 0.366 
+
+Locus 71 : SNP362 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 72 : SNP249 
+2 alleles
+0.0% missing data
+   4   (0.587) 0.094 0.347 0.969 
+   2   (0.413) 0.906 0.653 0.031 
+
+Locus 73 : SNP38 
+2 alleles
+0.0% missing data
+   2   (0.832) 0.989 0.996 0.885 
+   3   (0.168) 0.011 0.004 0.115 
+
+Locus 74 : SNP37 
+2 alleles
+0.0% missing data
+   2   (0.153) 0.010 0.003 0.063 
+   4   (0.847) 0.990 0.997 0.937 
+
+Locus 75 : SNP1293 
+2 alleles
+0.0% missing data
+   3   (0.736) 0.982 0.945 0.877 
+   2   (0.264) 0.018 0.055 0.123 
+
+Locus 76 : SNP252 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 77 : SNP254 
+2 alleles
+0.0% missing data
+   3   (0.296) 0.019 0.170 0.125 
+   2   (0.704) 0.981 0.830 0.875 
+
+Locus 78 : SNP79 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.988 0.947 0.987 
+   4   (0.172) 0.012 0.053 0.013 
+
+Locus 79 : SNP138 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 80 : SNP188 
+3 alleles
+0.0% missing data
+   4   (0.700) 0.979 0.928 0.978 
+   2   (0.159) 0.011 0.052 0.012 
+   1   (0.141) 0.009 0.019 0.011 
+
+Locus 81 : SNP51 
+3 alleles
+0.0% missing data
+   1   (0.501) 0.768 0.701 0.654 
+   4   (0.374) 0.223 0.280 0.337 
+   3   (0.124) 0.009 0.019 0.009 
+
+Locus 82 : SNP164 
+2 alleles
+0.0% missing data
+   4   (0.809) 0.988 0.865 0.986 
+   2   (0.191) 0.012 0.135 0.014 
+
+Locus 83 : SNP41 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.990 0.980 0.989 
+   1   (0.154) 0.010 0.020 0.011 
+
+Locus 84 : SNP192 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 85 : SNP298 
+2 alleles
+0.0% missing data
+   1   (0.229) 0.015 0.005 0.635 
+   3   (0.771) 0.985 0.995 0.365 
+
+Locus 86 : SNP132 
+2 alleles
+0.0% missing data
+   2   (0.834) 0.989 0.964 0.987 
+   4   (0.166) 0.011 0.036 0.013 
+
+Locus 87 : SNP191 
+2 alleles
+0.0% missing data
+   2   (0.424) 0.048 0.332 0.649 
+   3   (0.576) 0.952 0.668 0.351 
+
+Locus 88 : SNP124 
+3 alleles
+0.0% missing data
+   3   (0.660) 0.978 0.911 0.666 
+   2   (0.173) 0.011 0.004 0.321 
+   1   (0.167) 0.011 0.085 0.012 
+
+Locus 89 : SNP147 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 90 : SNP318 
+2 alleles
+0.0% missing data
+   3   (0.739) 0.136 0.969 0.981 
+   1   (0.261) 0.864 0.031 0.019 
+
+Locus 91 : SNP256 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 92 : SNP125 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 93 : SNP143 
+2 alleles
+0.0% missing data
+   4   (0.632) 0.966 0.618 0.715 
+   2   (0.368) 0.034 0.382 0.285 
+
+Locus 94 : SNP169 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 95 : SNP693 
+2 alleles
+0.0% missing data
+   2   (0.672) 0.545 0.980 0.770 
+   4   (0.328) 0.455 0.020 0.230 
+
+Locus 96 : SNP743 
+2 alleles
+0.0% missing data
+   3   (0.822) 0.988 0.931 0.987 
+   2   (0.178) 0.012 0.069 0.013 
+
+Locus 97 : SNP1070 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.988 0.996 0.781 
+   3   (0.184) 0.012 0.004 0.219 
+
+Locus 98 : SNP882 
+2 alleles
+0.0% missing data
+   2   (0.805) 0.987 0.996 0.677 
+   4   (0.195) 0.013 0.004 0.323 
+
+Locus 99 : SNP199 
+2 alleles
+0.0% missing data
+   2   (0.393) 0.070 0.343 0.389 
+   1   (0.607) 0.930 0.657 0.611 
+
+Locus 100 : SNP80 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.990 0.997 0.937 
+   1   (0.154) 0.010 0.003 0.063 
+
+Locus 101 : SNP174 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 102 : SNP289 
+2 alleles
+0.0% missing data
+   1   (0.778) 0.985 0.979 0.932 
+   2   (0.222) 0.015 0.021 0.068 
+
+Locus 103 : SNP28 
+2 alleles
+0.0% missing data
+   1   (0.815) 0.988 0.996 0.781 
+   3   (0.185) 0.012 0.004 0.219 
+
+Locus 104 : SNP185 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 105 : SNP1544 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 106 : SNP27 
+3 alleles
+0.0% missing data
+   4   (0.682) 0.977 0.977 0.667 
+   2   (0.175) 0.012 0.004 0.322 
+   3   (0.143) 0.012 0.019 0.011 
+
+Locus 107 : SNP32 
+2 alleles
+0.0% missing data
+   4   (0.675) 0.037 0.903 0.976 
+   2   (0.325) 0.963 0.097 0.024 
+
+Locus 108 : SNP165 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 109 : SNP59 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.885 
+   1   (0.168) 0.011 0.004 0.115 
+
+Locus 110 : SNP120 
+2 alleles
+0.0% missing data
+   4   (0.429) 0.029 0.025 0.957 
+   1   (0.571) 0.971 0.975 0.043 
+
+Locus 111 : SNP71 
+2 alleles
+0.0% missing data
+   1   (0.832) 0.989 0.996 0.884 
+   2   (0.168) 0.011 0.004 0.116 
+
+Locus 112 : SNP1019 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 113 : SNP448 
+3 alleles
+0.0% missing data
+   4   (0.696) 0.849 0.925 0.977 
+   1   (0.162) 0.014 0.068 0.012 
+   3   (0.142) 0.137 0.007 0.011 
+
+Locus 114 : SNP153 
+3 alleles
+0.0% missing data
+   4   (0.697) 0.979 0.961 0.875 
+   2   (0.151) 0.011 0.036 0.011 
+   1   (0.152) 0.010 0.003 0.114 
+
+Locus 115 : SNP374 
+2 alleles
+0.0% missing data
+   2   (0.723) 0.664 0.829 0.979 
+   1   (0.277) 0.336 0.171 0.021 
+
+Locus 116 : SNP416 
+2 alleles
+0.0% missing data
+   2   (0.817) 0.988 0.996 0.781 
+   1   (0.183) 0.012 0.004 0.219 
+
+Locus 117 : SNP218 
+2 alleles
+0.0% missing data
+   2   (0.283) 0.019 0.071 0.175 
+   4   (0.717) 0.981 0.929 0.825 
+
+Locus 118 : SNP316 
+2 alleles
+0.0% missing data
+   1   (0.815) 0.987 0.996 0.780 
+   2   (0.185) 0.013 0.004 0.220 
+
+Locus 119 : SNP95 
+3 alleles
+0.0% missing data
+   1   (0.436) 0.498 0.482 0.495 
+   3   (0.440) 0.492 0.499 0.495 
+   4   (0.124) 0.010 0.019 0.009 
+
+Locus 120 : SNP18 
+3 alleles
+0.0% missing data
+   3   (0.680) 0.978 0.977 0.668 
+   1   (0.178) 0.012 0.004 0.322 
+   2   (0.142) 0.010 0.019 0.011 
+
+Locus 121 : SNP132 
+2 alleles
+0.0% missing data
+   1   (0.719) 0.981 0.896 0.876 
+   3   (0.281) 0.019 0.104 0.124 
+
+Locus 122 : SNP188 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.931 0.987 
+   1   (0.177) 0.012 0.069 0.013 
+
+Locus 123 : SNP366 
+3 alleles
+0.0% missing data
+   1   (0.197) 0.015 0.020 0.118 
+   3   (0.496) 0.549 0.926 0.705 
+   2   (0.307) 0.436 0.054 0.177 
+
+Locus 124 : SNP129 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 125 : SNP15 
+4 alleles
+0.0% missing data
+   4   (0.347) 0.044 0.523 0.643 
+   3   (0.408) 0.808 0.468 0.287 
+   2   (0.123) 0.009 0.003 0.060 
+   1   (0.122) 0.139 0.006 0.009 
+
+Locus 126 : SNP1038 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 127 : SNP305 
+2 alleles
+0.0% missing data
+   4   (0.819) 0.159 0.996 0.986 
+   1   (0.181) 0.841 0.004 0.014 
+
+Locus 128 : SNP162 
+2 alleles
+0.0% missing data
+   1   (0.744) 0.986 0.291 0.981 
+   3   (0.256) 0.014 0.709 0.019 
+
+Locus 129 : SNP312 
+2 alleles
+0.0% missing data
+   4   (0.683) 0.843 0.910 0.874 
+   2   (0.317) 0.157 0.090 0.126 
+
+Locus 130 : SNP807 
+2 alleles
+0.0% missing data
+   2   (0.348) 0.023 0.220 0.335 
+   1   (0.652) 0.977 0.780 0.665 
+
+Locus 131 : SNP489 
+2 alleles
+0.0% missing data
+   2   (0.774) 0.986 0.567 0.983 
+   1   (0.226) 0.014 0.433 0.017 
+
+Locus 132 : SNP538 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 133 : SNP181 
+2 alleles
+0.0% missing data
+   4   (0.329) 0.021 0.220 0.230 
+   2   (0.671) 0.979 0.780 0.770 
+
+Locus 134 : SNP229 
+2 alleles
+0.0% missing data
+   2   (0.833) 0.989 0.996 0.885 
+   4   (0.167) 0.011 0.004 0.115 
+
+Locus 135 : SNP153 
+2 alleles
+0.0% missing data
+   3   (0.814) 0.988 0.898 0.986 
+   2   (0.186) 0.012 0.102 0.014 
+
+Locus 136 : SNP168 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 137 : SNP271 
+2 alleles
+0.0% missing data
+   1   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 138 : SNP163 
+2 alleles
+0.0% missing data
+   4   (0.353) 0.024 0.073 0.644 
+   2   (0.647) 0.976 0.927 0.356 
+
+Locus 139 : SNP105 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 140 : SNP251 
+3 alleles
+0.0% missing data
+   3   (0.707) 0.980 0.945 0.978 
+   2   (0.141) 0.009 0.019 0.011 
+   1   (0.152) 0.010 0.036 0.011 
+
+Locus 141 : SNP391 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 142 : SNP250 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 143 : SNP86 
+2 alleles
+0.0% missing data
+   1   (0.817) 0.988 0.996 0.780 
+   3   (0.183) 0.012 0.004 0.220 
+
+Locus 144 : SNP1161 
+2 alleles
+0.0% missing data
+   3   (0.715) 0.981 0.994 0.104 
+   1   (0.285) 0.019 0.006 0.896 
+
+Locus 145 : SNP388 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 146 : SNP1161 
+2 alleles
+0.0% missing data
+   3   (0.815) 0.988 0.996 0.781 
+   1   (0.185) 0.012 0.004 0.219 
+
+Locus 147 : SNP41 
+2 alleles
+0.0% missing data
+   1   (0.834) 0.989 0.964 0.988 
+   4   (0.166) 0.011 0.036 0.012 
+
+Locus 148 : SNP1129 
+2 alleles
+0.0% missing data
+   3   (0.816) 0.988 0.996 0.781 
+   1   (0.184) 0.012 0.004 0.219 
+
+Locus 149 : SNP1695 
+2 alleles
+0.0% missing data
+   2   (0.729) 0.982 0.929 0.877 
+   4   (0.271) 0.018 0.071 0.123 
+
+Locus 150 : SNP977 
+2 alleles
+0.0% missing data
+   1   (0.183) 0.013 0.004 0.219 
+   2   (0.817) 0.987 0.996 0.781 
+
+Locus 151 : SNP89 
+2 alleles
+0.0% missing data
+   4   (0.638) 0.956 0.751 0.665 
+   2   (0.362) 0.044 0.249 0.335 
+
+Locus 152 : SNP344 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 153 : SNP151 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 154 : SNP227 
+2 alleles
+0.0% missing data
+   4   (0.154) 0.010 0.003 0.063 
+   2   (0.846) 0.990 0.997 0.937 
+
+Locus 155 : SNP11 
+2 alleles
+0.0% missing data
+   3   (0.833) 0.989 0.996 0.885 
+   1   (0.167) 0.011 0.004 0.115 
+
+Locus 156 : SNP59 
+2 alleles
+0.0% missing data
+   3   (0.561) 0.551 0.674 0.710 
+   1   (0.439) 0.449 0.326 0.290 
+
+Locus 157 : SNP83 
+2 alleles
+0.0% missing data
+   2   (0.821) 0.985 0.931 0.987 
+   4   (0.179) 0.015 0.069 0.013 
+
+Locus 158 : SNP435 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 159 : SNP363 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 160 : SNP462 
+2 alleles
+0.0% missing data
+   1   (0.805) 0.987 0.996 0.677 
+   3   (0.195) 0.013 0.004 0.323 
+
+Locus 161 : SNP162 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 162 : SNP50 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.931 0.987 
+   1   (0.177) 0.012 0.069 0.013 
+
+Locus 163 : SNP324 
+2 alleles
+0.0% missing data
+   3   (0.700) 0.980 0.945 0.669 
+   2   (0.300) 0.020 0.055 0.331 
+
+Locus 164 : SNP83 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.988 0.947 0.987 
+   1   (0.172) 0.012 0.053 0.013 
+
+Locus 165 : SNP89 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 166 : SNP308 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.990 0.980 0.989 
+   4   (0.154) 0.010 0.020 0.011 
+
+Locus 167 : SNP389 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 168 : SNP1183 
+2 alleles
+0.0% missing data
+   4   (0.838) 0.582 0.997 0.988 
+   2   (0.162) 0.418 0.003 0.012 
+
+Locus 169 : SNP12 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   2   (0.196) 0.013 0.004 0.323 
+
+Locus 170 : SNP74 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 171 : SNP72 
+2 alleles
+0.0% missing data
+   4   (0.823) 0.988 0.996 0.833 
+   2   (0.177) 0.012 0.004 0.167 
+
+Locus 172 : SNP148 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 173 : SNP99 
+1 alleles
+2.4% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 174 : SNP51 
+2 alleles
+0.0% missing data
+   4   (0.810) 0.988 0.882 0.986 
+   3   (0.190) 0.012 0.118 0.014 
+
+Locus 175 : SNP251 
+2 alleles
+0.0% missing data
+   1   (0.828) 0.988 0.947 0.987 
+   2   (0.172) 0.012 0.053 0.013 
+
+Locus 176 : SNP578 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 177 : SNP117 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 178 : SNP1275 
+2 alleles
+0.0% missing data
+   3   (0.814) 0.988 0.898 0.986 
+   2   (0.186) 0.012 0.102 0.014 
+
+Locus 179 : SNP751 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 180 : SNP23 
+3 alleles
+0.0% missing data
+   3   (0.667) 0.137 0.961 0.975 
+   1   (0.168) 0.015 0.035 0.013 
+   2   (0.165) 0.848 0.003 0.012 
+
+Locus 181 : SNP84 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 182 : SNP63 
+2 alleles
+0.0% missing data
+   4   (0.338) 0.023 0.007 0.951 
+   2   (0.662) 0.977 0.993 0.049 
+
+Locus 183 : SNP147 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 184 : SNP218 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   2   (0.196) 0.013 0.004 0.323 
+
+Locus 185 : SNP323 
+2 alleles
+0.0% missing data
+   4   (0.419) 0.554 0.053 0.546 
+   2   (0.581) 0.446 0.947 0.454 
+
+Locus 186 : SNP96 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 187 : SNP89 
+2 alleles
+0.0% missing data
+   2   (0.809) 0.987 0.996 0.729 
+   4   (0.191) 0.013 0.004 0.271 
+
+Locus 188 : SNP203 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 189 : SNP1037 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 190 : SNP316 
+2 alleles
+0.0% missing data
+   3   (0.474) 0.492 0.012 0.961 
+   1   (0.526) 0.508 0.988 0.039 
+
+Locus 191 : SNP1742 
+2 alleles
+0.0% missing data
+   3   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 192 : SNP462 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 193 : SNP300 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.996 0.833 
+   1   (0.177) 0.012 0.004 0.167 
+
+Locus 194 : SNP63 
+2 alleles
+0.0% missing data
+   4   (0.771) 0.987 0.532 0.983 
+   3   (0.229) 0.013 0.468 0.017 
+
+Locus 195 : SNP340 
+2 alleles
+0.0% missing data
+   1   (0.826) 0.988 0.947 0.987 
+   2   (0.174) 0.012 0.053 0.013 
+
+Locus 196 : SNP173 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 197 : SNP65 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 198 : SNP238 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 199 : SNP112 
+2 alleles
+0.0% missing data
+   1   (0.602) 0.568 0.951 0.507 
+   2   (0.398) 0.432 0.049 0.493 
+
+Locus 200 : SNP294 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 201 : SNP345 
+2 alleles
+0.0% missing data
+   3   (0.229) 0.015 0.005 0.634 
+   1   (0.771) 0.985 0.995 0.366 
+
+Locus 202 : SNP41 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 203 : SNP81 
+2 alleles
+0.0% missing data
+   4   (0.816) 0.988 0.996 0.781 
+   1   (0.184) 0.012 0.004 0.219 
+
+Locus 204 : SNP1509 
+2 alleles
+0.0% missing data
+   3   (0.770) 0.267 0.981 0.983 
+   1   (0.230) 0.733 0.019 0.017 
+
+Locus 205 : SNP291 
+2 alleles
+0.0% missing data
+   1   (0.616) 0.965 0.569 0.663 
+   4   (0.384) 0.035 0.431 0.337 
+
+Locus 206 : SNP378 
+2 alleles
+0.0% missing data
+   3   (0.847) 0.989 0.981 0.989 
+   4   (0.153) 0.011 0.019 0.011 
+
+Locus 207 : SNP256 
+2 alleles
+0.0% missing data
+   2   (0.548) 0.906 0.011 0.966 
+   1   (0.452) 0.094 0.989 0.034 
+
+Locus 208 : SNP521 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 209 : SNP575 
+2 alleles
+0.0% missing data
+   2   (0.620) 0.976 0.564 0.663 
+   4   (0.380) 0.024 0.436 0.337 
+
+Locus 210 : SNP844 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 211 : SNP137 
+2 alleles
+0.0% missing data
+   2   (0.814) 0.103 0.996 0.986 
+   4   (0.186) 0.897 0.004 0.014 
+
+Locus 212 : SNP200 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 213 : SNP218 
+2 alleles
+0.0% missing data
+   1   (0.836) 0.989 0.964 0.988 
+   2   (0.164) 0.011 0.036 0.012 
+
+Locus 214 : SNP354 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 215 : SNP77 
+2 alleles
+0.0% missing data
+   2   (0.824) 0.988 0.996 0.833 
+   3   (0.176) 0.012 0.004 0.167 
+
+Locus 216 : SNP43 
+2 alleles
+0.0% missing data
+   3   (0.619) 0.976 0.779 0.457 
+   2   (0.381) 0.024 0.221 0.543 
+
+Locus 217 : SNP229 
+2 alleles
+0.0% missing data
+   1   (0.236) 0.016 0.005 0.686 
+   4   (0.764) 0.984 0.995 0.314 
+
+Locus 218 : SNP126 
+2 alleles
+0.0% missing data
+   1   (0.676) 0.034 0.912 0.976 
+   3   (0.324) 0.966 0.088 0.024 
+
+Locus 219 : SNP186 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 220 : SNP601 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 221 : SNP147 
+1 alleles
+2.4% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 222 : SNP1791 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 223 : SNP398 
+2 alleles
+0.0% missing data
+   2   (0.811) 0.988 0.882 0.986 
+   1   (0.189) 0.012 0.118 0.014 
+
+Locus 224 : SNP852 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 225 : SNP86 
+2 alleles
+0.0% missing data
+   4   (0.666) 0.979 0.747 0.769 
+   1   (0.334) 0.021 0.253 0.231 
+
+Locus 226 : SNP616 
+2 alleles
+0.0% missing data
+   4   (0.817) 0.988 0.914 0.986 
+   2   (0.183) 0.012 0.086 0.014 
+
+Locus 227 : SNP956 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 228 : SNP505 
+2 alleles
+0.0% missing data
+   2   (0.228) 0.015 0.005 0.635 
+   3   (0.772) 0.985 0.995 0.365 
+
+Locus 229 : SNP132 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 230 : SNP341 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 231 : SNP135 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 232 : SNP36 
+2 alleles
+0.0% missing data
+   2   (0.270) 0.018 0.071 0.123 
+   4   (0.730) 0.982 0.929 0.877 
+
+Locus 233 : SNP305 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 234 : SNP87 
+2 alleles
+0.0% missing data
+   1   (0.824) 0.988 0.996 0.833 
+   2   (0.176) 0.012 0.004 0.167 
+
+Locus 235 : SNP126 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.988 0.947 0.987 
+   2   (0.172) 0.012 0.053 0.013 
+
+Locus 236 : SNP89 
+2 alleles
+0.0% missing data
+   2   (0.832) 0.381 0.996 0.988 
+   4   (0.168) 0.619 0.004 0.012 
+
+Locus 237 : SNP374 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 238 : SNP299 
+2 alleles
+0.0% missing data
+   4   (0.836) 0.989 0.964 0.988 
+   3   (0.164) 0.011 0.036 0.012 
+
+Locus 239 : SNP495 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.989 0.947 0.987 
+   2   (0.172) 0.011 0.053 0.013 
+
+Locus 240 : SNP24 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 241 : SNP268 
+2 alleles
+0.0% missing data
+   4   (0.772) 0.641 0.977 0.983 
+   2   (0.228) 0.359 0.023 0.017 
+
+Locus 242 : SNP302 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.989 0.947 0.987 
+   2   (0.172) 0.011 0.053 0.013 
+
+Locus 243 : SNP591 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 244 : SNP208 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 245 : SNP268 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 246 : SNP154 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 247 : SNP1163 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 248 : SNP1362 
+2 alleles
+0.0% missing data
+   3   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 249 : SNP1107 
+2 alleles
+0.0% missing data
+   3   (0.607) 0.039 0.573 0.971 
+   1   (0.393) 0.961 0.427 0.029 
+
+Locus 250 : SNP850 
+2 alleles
+0.0% missing data
+   2   (0.846) 0.863 0.993 0.988 
+   4   (0.154) 0.137 0.007 0.012 
+
+Locus 251 : SNP261 
+2 alleles
+0.0% missing data
+   4   (0.767) 0.978 0.539 0.983 
+   2   (0.233) 0.022 0.461 0.017 
+
+Locus 252 : SNP220 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 253 : SNP693 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   3   (0.165) 0.011 0.036 0.012 
+
+Locus 254 : SNP183 
+2 alleles
+0.0% missing data
+   3   (0.267) 0.018 0.006 0.843 
+   1   (0.733) 0.982 0.994 0.157 
+
+Locus 255 : SNP338 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 256 : SNP73 
+2 alleles
+0.0% missing data
+   1   (0.805) 0.987 0.996 0.676 
+   3   (0.195) 0.013 0.004 0.324 
+
+Locus 257 : SNP69 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 258 : SNP704 
+3 alleles
+0.0% missing data
+   3   (0.453) 0.581 0.376 0.651 
+   2   (0.422) 0.410 0.605 0.340 
+   1   (0.124) 0.009 0.019 0.009 
+
+Locus 259 : SNP139 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 260 : SNP133 
+2 alleles
+0.0% missing data
+   2   (0.705) 0.980 0.896 0.824 
+   4   (0.295) 0.020 0.104 0.176 
+
+Locus 261 : SNP1006 
+4 alleles
+0.0% missing data
+   4   (0.602) 0.968 0.927 0.970 
+   3   (0.130) 0.009 0.019 0.010 
+   1   (0.139) 0.014 0.035 0.010 
+   2   (0.129) 0.009 0.019 0.010 
+
+Locus 262 : SNP57 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 263 : SNP395 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 264 : SNP137 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 265 : SNP20 
+2 alleles
+0.0% missing data
+   2   (0.703) 0.752 0.581 0.978 
+   4   (0.297) 0.248 0.419 0.022 
+
+Locus 266 : SNP1753 
+2 alleles
+0.0% missing data
+   1   (0.822) 0.988 0.931 0.987 
+   2   (0.178) 0.012 0.069 0.013 
+
+Locus 267 : SNP118 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 268 : SNP351 
+2 alleles
+0.0% missing data
+   4   (0.836) 0.989 0.964 0.988 
+   2   (0.164) 0.011 0.036 0.012 
+
+Locus 269 : SNP33 
+2 alleles
+0.0% missing data
+   4   (0.833) 0.989 0.996 0.885 
+   2   (0.167) 0.011 0.004 0.115 
+
+Locus 270 : SNP17 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.988 0.964 0.988 
+   1   (0.165) 0.012 0.036 0.012 
+
+Locus 271 : SNP28 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 272 : SNP50 
+2 alleles
+0.0% missing data
+   1   (0.832) 0.989 0.996 0.885 
+   3   (0.168) 0.011 0.004 0.115 
+
+Locus 273 : SNP498 
+2 alleles
+0.0% missing data
+   3   (0.796) 0.987 0.782 0.985 
+   2   (0.204) 0.013 0.218 0.015 
+
+Locus 274 : SNP278 
+2 alleles
+0.0% missing data
+   1   (0.401) 0.031 0.237 0.647 
+   3   (0.599) 0.969 0.763 0.353 
+
+Locus 275 : SNP581 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 276 : SNP44 
+2 alleles
+0.0% missing data
+   3   (0.697) 0.407 0.800 0.977 
+   1   (0.303) 0.593 0.200 0.023 
+
+Locus 277 : SNP216 
+2 alleles
+0.0% missing data
+   2   (0.500) 0.500 0.500 0.500 
+   3   (0.500) 0.500 0.500 0.500 
+
+Locus 278 : SNP325 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 279 : SNP16 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 280 : SNP123 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 281 : SNP247 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 282 : SNP141 
+2 alleles
+0.0% missing data
+   1   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 283 : SNP294 
+2 alleles
+0.0% missing data
+   4   (0.272) 0.433 0.006 0.226 
+   2   (0.728) 0.567 0.994 0.774 
+
+Locus 284 : SNP78 
+2 alleles
+0.0% missing data
+   2   (0.828) 0.988 0.947 0.987 
+   1   (0.172) 0.012 0.053 0.013 
+
+Locus 285 : SNP196 
+2 alleles
+0.0% missing data
+   4   (0.814) 0.931 0.969 0.986 
+   3   (0.186) 0.069 0.031 0.014 
+
+Locus 286 : SNP171 
+1 alleles
+2.4% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 287 : SNP86 
+2 alleles
+0.0% missing data
+   2   (0.757) 0.984 0.995 0.262 
+   4   (0.243) 0.016 0.005 0.738 
+
+Locus 288 : SNP53 
+2 alleles
+0.0% missing data
+   1   (0.501) 0.492 0.517 0.500 
+   2   (0.499) 0.508 0.483 0.500 
+
+Locus 289 : SNP174 
+2 alleles
+0.0% missing data
+   4   (0.344) 0.023 0.089 0.540 
+   2   (0.656) 0.977 0.911 0.460 
+
+Locus 290 : SNP298 
+2 alleles
+0.0% missing data
+   3   (0.815) 0.988 0.898 0.986 
+   1   (0.185) 0.012 0.102 0.014 
+
+Locus 291 : SNP259 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 292 : SNP258 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 293 : SNP816 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 294 : SNP161 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 295 : SNP218 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 296 : SNP763 
+2 alleles
+0.0% missing data
+   2   (0.763) 0.969 0.543 0.982 
+   4   (0.237) 0.031 0.457 0.018 
+
+Locus 297 : SNP1407 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 298 : SNP751 
+2 alleles
+0.0% missing data
+   3   (0.649) 0.034 0.992 0.666 
+   4   (0.351) 0.966 0.008 0.334 
+
+Locus 299 : SNP141 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.990 0.997 0.937 
+   2   (0.154) 0.010 0.003 0.063 
+
+Locus 300 : SNP228 
+2 alleles
+0.0% missing data
+   2   (0.815) 0.988 0.898 0.986 
+   1   (0.185) 0.012 0.102 0.014 
+
+Locus 301 : SNP268 
+2 alleles
+0.0% missing data
+   3   (0.506) 0.246 0.620 0.603 
+   1   (0.494) 0.754 0.380 0.397 
+
+Locus 302 : SNP362 
+2 alleles
+0.0% missing data
+   4   (0.803) 0.987 0.832 0.985 
+   2   (0.197) 0.013 0.168 0.015 
+
+Locus 303 : SNP207 
+2 alleles
+0.0% missing data
+   2   (0.838) 0.674 0.995 0.988 
+   1   (0.162) 0.326 0.005 0.012 
+
+Locus 304 : SNP297 
+2 alleles
+0.0% missing data
+   4   (0.434) 0.201 0.397 0.341 
+   3   (0.566) 0.799 0.603 0.659 
+
+Locus 305 : SNP513 
+2 alleles
+0.0% missing data
+   2   (0.806) 0.987 0.849 0.986 
+   1   (0.194) 0.013 0.151 0.014 
+
+Locus 306 : SNP1270 
+2 alleles
+0.0% missing data
+   2   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 307 : SNP1144 
+2 alleles
+0.0% missing data
+   3   (0.546) 0.953 0.163 0.658 
+   2   (0.454) 0.047 0.837 0.342 
+
+Locus 308 : SNP426 
+2 alleles
+0.0% missing data
+   1   (0.548) 0.736 0.510 0.658 
+   4   (0.452) 0.264 0.490 0.342 
+
+Locus 309 : SNP196 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 310 : SNP114 
+2 alleles
+0.0% missing data
+   1   (0.544) 0.149 0.656 0.863 
+   4   (0.456) 0.851 0.344 0.137 
+
+Locus 311 : SNP181 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.990 0.997 0.937 
+   1   (0.154) 0.010 0.003 0.063 
+
+Locus 312 : SNP204 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.988 0.947 0.987 
+   1   (0.172) 0.012 0.053 0.013 
+
+Locus 313 : SNP239 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 314 : SNP308 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 315 : SNP149 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 316 : SNP138 
+2 alleles
+0.0% missing data
+   3   (0.336) 0.022 0.007 0.950 
+   1   (0.664) 0.978 0.993 0.050 
+
+Locus 317 : SNP39 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.989 0.996 0.885 
+   4   (0.168) 0.011 0.004 0.115 
+
+Locus 318 : SNP130 
+2 alleles
+0.0% missing data
+   3   (0.805) 0.987 0.996 0.677 
+   1   (0.195) 0.013 0.004 0.323 
+
+Locus 319 : SNP396 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 320 : SNP310 
+2 alleles
+0.0% missing data
+   3   (0.764) 0.984 0.962 0.931 
+   1   (0.236) 0.016 0.038 0.069 
+
+Locus 321 : SNP133 
+2 alleles
+0.0% missing data
+   1   (0.229) 0.016 0.005 0.635 
+   3   (0.771) 0.984 0.995 0.365 
+
+Locus 322 : SNP79 
+2 alleles
+0.0% missing data
+   2   (0.823) 0.988 0.996 0.833 
+   1   (0.177) 0.012 0.004 0.167 
+
+Locus 323 : SNP769 
+2 alleles
+0.0% missing data
+   1   (0.734) 0.981 0.962 0.826 
+   4   (0.266) 0.019 0.038 0.174 
+
+Locus 324 : SNP134 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 325 : SNP121 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.989 0.996 0.885 
+   1   (0.168) 0.011 0.004 0.115 
+
+Locus 326 : SNP66 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.989 0.947 0.987 
+   3   (0.172) 0.011 0.053 0.013 
+
+Locus 327 : SNP554 
+2 alleles
+0.0% missing data
+   2   (0.805) 0.987 0.996 0.677 
+   4   (0.195) 0.013 0.004 0.323 
+
+Locus 328 : SNP667 
+2 alleles
+0.0% missing data
+   2   (0.553) 0.676 0.662 0.607 
+   3   (0.447) 0.324 0.338 0.393 
+
+Locus 329 : SNP185 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 330 : SNP171 
+2 alleles
+0.0% missing data
+   4   (0.807) 0.988 0.865 0.986 
+   1   (0.193) 0.012 0.135 0.014 
+
+Locus 331 : SNP160 
+2 alleles
+0.0% missing data
+   3   (0.831) 0.989 0.996 0.885 
+   1   (0.169) 0.011 0.004 0.115 
+
+Locus 332 : SNP30 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 333 : SNP605 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 334 : SNP197 
+2 alleles
+0.0% missing data
+   4   (0.822) 0.988 0.996 0.833 
+   2   (0.178) 0.012 0.004 0.167 
+
+Locus 335 : SNP246 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 336 : SNP43 
+2 alleles
+0.0% missing data
+   2   (0.639) 0.851 0.843 0.819 
+   3   (0.361) 0.149 0.157 0.181 
+
+Locus 337 : SNP239 
+2 alleles
+0.0% missing data
+   4   (0.817) 0.988 0.996 0.781 
+   2   (0.183) 0.012 0.004 0.219 
+
+Locus 338 : SNP50 
+2 alleles
+0.0% missing data
+   4   (0.441) 0.652 0.175 0.341 
+   2   (0.559) 0.348 0.825 0.659 
+
+Locus 339 : SNP64 
+2 alleles
+0.0% missing data
+   2   (0.791) 0.987 0.733 0.984 
+   4   (0.209) 0.013 0.267 0.016 
+
+Locus 340 : SNP223 
+3 alleles
+0.0% missing data
+   1   (0.469) 0.567 0.670 0.446 
+   4   (0.155) 0.011 0.003 0.372 
+   3   (0.376) 0.422 0.327 0.182 
+
+Locus 341 : SNP651 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 342 : SNP1911 
+2 alleles
+0.0% missing data
+   4   (0.576) 0.942 0.509 0.506 
+   2   (0.424) 0.058 0.491 0.494 
+
+Locus 343 : SNP782 
+2 alleles
+0.0% missing data
+   2   (0.717) 0.696 0.762 0.979 
+   4   (0.283) 0.304 0.238 0.021 
+
+Locus 344 : SNP1077 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 345 : SNP1841 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 346 : SNP159 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 347 : SNP127 
+2 alleles
+0.0% missing data
+   2   (0.525) 0.505 0.500 0.656 
+   1   (0.475) 0.495 0.500 0.344 
+
+Locus 348 : SNP82 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 349 : SNP1706 
+3 alleles
+0.0% missing data
+   2   (0.408) 0.024 0.706 0.647 
+   4   (0.458) 0.967 0.275 0.342 
+   3   (0.133) 0.008 0.019 0.010 
+
+Locus 350 : SNP353 
+2 alleles
+0.0% missing data
+   4   (0.768) 0.850 0.944 0.983 
+   2   (0.232) 0.150 0.056 0.017 
+
+Locus 351 : SNP12 
+2 alleles
+0.0% missing data
+   4   (0.776) 0.958 0.707 0.983 
+   3   (0.224) 0.042 0.293 0.017 
+
+Locus 352 : SNP181 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 353 : SNP507 
+2 alleles
+0.0% missing data
+   3   (0.216) 0.015 0.005 0.531 
+   1   (0.784) 0.985 0.995 0.469 
+
+Locus 354 : SNP326 
+2 alleles
+0.0% missing data
+   3   (0.183) 0.012 0.004 0.219 
+   4   (0.817) 0.988 0.996 0.781 
+
+Locus 355 : SNP661 
+2 alleles
+0.0% missing data
+   4   (0.770) 0.556 0.975 0.983 
+   2   (0.230) 0.444 0.025 0.017 
+
+Locus 356 : SNP189 
+2 alleles
+0.0% missing data
+   3   (0.399) 0.414 0.152 0.236 
+   1   (0.601) 0.586 0.848 0.764 
+
+Locus 357 : SNP576 
+2 alleles
+0.0% missing data
+   3   (0.833) 0.989 0.996 0.885 
+   2   (0.167) 0.011 0.004 0.115 
+
+Locus 358 : SNP343 
+2 alleles
+0.0% missing data
+   1   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 359 : SNP250 
+2 alleles
+0.0% missing data
+   4   (0.365) 0.023 0.337 0.336 
+   2   (0.635) 0.977 0.663 0.664 
+
+Locus 360 : SNP379 
+2 alleles
+0.0% missing data
+   2   (0.787) 0.987 0.700 0.984 
+   3   (0.213) 0.013 0.300 0.016 
+
+Locus 361 : SNP68 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 362 : SNP422 
+2 alleles
+0.0% missing data
+   3   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 363 : SNP1170 
+2 alleles
+0.0% missing data
+   3   (0.804) 0.987 0.996 0.677 
+   4   (0.196) 0.013 0.004 0.323 
+
+Locus 364 : SNP1142 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 365 : SNP267 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 366 : SNP420 
+2 alleles
+0.0% missing data
+   1   (0.814) 0.103 0.996 0.986 
+   4   (0.186) 0.897 0.004 0.014 
+
+Locus 367 : SNP382 
+2 alleles
+0.0% missing data
+   1   (0.828) 0.988 0.947 0.987 
+   3   (0.172) 0.012 0.053 0.013 
+
+Locus 368 : SNP179 
+2 alleles
+0.0% missing data
+   1   (0.194) 0.013 0.004 0.323 
+   4   (0.806) 0.987 0.996 0.677 
+
+Locus 369 : SNP964 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 370 : SNP14 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.381 0.996 0.987 
+   1   (0.168) 0.619 0.004 0.013 
+
+Locus 371 : SNP918 
+2 alleles
+0.0% missing data
+   3   (0.814) 0.988 0.898 0.986 
+   2   (0.186) 0.012 0.102 0.014 
+
+Locus 372 : SNP2295 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 373 : SNP569 
+2 alleles
+0.0% missing data
+   3   (0.742) 0.096 0.979 0.981 
+   1   (0.258) 0.904 0.021 0.019 
+
+Locus 374 : SNP430 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 375 : SNP43 
+2 alleles
+0.0% missing data
+   1   (0.507) 0.505 0.500 0.552 
+   4   (0.493) 0.495 0.500 0.448 
+
+Locus 376 : SNP549 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 377 : SNP180 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 378 : SNP180 
+2 alleles
+0.0% missing data
+   4   (0.816) 0.906 0.972 0.986 
+   3   (0.184) 0.094 0.028 0.014 
+
+Locus 379 : SNP643 
+2 alleles
+0.0% missing data
+   1   (0.637) 0.357 0.357 0.973 
+   3   (0.363) 0.643 0.643 0.027 
+
+Locus 380 : SNP194 
+2 alleles
+0.0% missing data
+   4   (0.229) 0.015 0.005 0.634 
+   3   (0.771) 0.985 0.995 0.366 
+
+Locus 381 : SNP51 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 382 : SNP96 
+2 alleles
+0.0% missing data
+   4   (0.811) 0.988 0.882 0.986 
+   1   (0.189) 0.012 0.118 0.014 
+
+Locus 383 : SNP727 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 384 : SNP790 
+2 alleles
+0.0% missing data
+   4   (0.777) 0.857 0.991 0.932 
+   2   (0.223) 0.143 0.009 0.068 
+
+Locus 385 : SNP1681 
+2 alleles
+0.0% missing data
+   3   (0.782) 0.746 0.970 0.984 
+   2   (0.218) 0.254 0.030 0.016 
+
+Locus 386 : SNP430 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 387 : SNP54 
+2 alleles
+0.0% missing data
+   2   (0.529) 0.628 0.505 0.605 
+   3   (0.471) 0.372 0.495 0.395 
+
+Locus 388 : SNP57 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 389 : SNP122 
+2 alleles
+0.0% missing data
+   1   (0.184) 0.012 0.004 0.220 
+   3   (0.816) 0.988 0.996 0.780 
+
+Locus 390 : SNP423 
+2 alleles
+0.0% missing data
+   2   (0.828) 0.988 0.947 0.987 
+   4   (0.172) 0.012 0.053 0.013 
+
+Locus 391 : SNP386 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 392 : SNP24 
+2 alleles
+0.0% missing data
+   1   (0.392) 0.370 0.140 0.235 
+   2   (0.608) 0.630 0.860 0.765 
+
+Locus 393 : SNP154 
+2 alleles
+0.0% missing data
+   4   (0.338) 0.023 0.007 0.950 
+   2   (0.662) 0.977 0.993 0.050 
+
+Locus 394 : SNP268 
+2 alleles
+0.0% missing data
+   4   (0.205) 0.014 0.004 0.427 
+   2   (0.795) 0.986 0.996 0.573 
+
+Locus 395 : SNP205 
+2 alleles
+0.0% missing data
+   4   (0.624) 0.045 0.673 0.972 
+   2   (0.376) 0.955 0.327 0.028 
+
+Locus 396 : SNP27 
+2 alleles
+0.0% missing data
+   1   (0.718) 0.982 0.896 0.876 
+   3   (0.282) 0.018 0.104 0.124 
+
+Locus 397 : SNP129 
+2 alleles
+0.0% missing data
+   2   (0.661) 0.407 0.514 0.975 
+   1   (0.339) 0.593 0.486 0.025 
+
+Locus 398 : SNP174 
+2 alleles
+0.0% missing data
+   1   (0.803) 0.042 0.995 0.985 
+   2   (0.197) 0.958 0.005 0.015 
+
+Locus 399 : SNP999 
+2 alleles
+0.0% missing data
+   1   (0.824) 0.988 0.996 0.832 
+   3   (0.176) 0.012 0.004 0.168 
+
+Locus 400 : SNP432 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 401 : SNP201 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   2   (0.196) 0.013 0.004 0.323 
+
+Locus 402 : SNP133 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 403 : SNP64 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 404 : SNP1519 
+2 alleles
+0.0% missing data
+   4   (0.624) 0.911 0.950 0.303 
+   2   (0.376) 0.089 0.050 0.697 
+
+Locus 405 : SNP276 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 406 : SNP1453 
+2 alleles
+0.0% missing data
+   2   (0.354) 0.024 0.073 0.644 
+   4   (0.646) 0.976 0.927 0.356 
+
+Locus 407 : SNP1008 
+2 alleles
+0.0% missing data
+   1   (0.695) 0.923 0.157 0.977 
+   2   (0.305) 0.077 0.843 0.023 
+
+Locus 408 : SNP276 
+2 alleles
+0.0% missing data
+   4   (0.846) 0.989 0.981 0.988 
+   1   (0.154) 0.011 0.019 0.012 
+
+Locus 409 : SNP154 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 410 : SNP563 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 411 : SNP499 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.885 
+   3   (0.168) 0.011 0.004 0.115 
+
+Locus 412 : SNP46 
+2 alleles
+0.0% missing data
+   1   (0.629) 0.067 0.661 0.972 
+   3   (0.371) 0.933 0.339 0.028 
+
+Locus 413 : SNP39 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 414 : SNP306 
+2 alleles
+0.0% missing data
+   1   (0.195) 0.013 0.004 0.323 
+   3   (0.805) 0.987 0.996 0.677 
+
+Locus 415 : SNP1243 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 416 : SNP236 
+2 alleles
+0.0% missing data
+   2   (0.817) 0.988 0.996 0.781 
+   1   (0.183) 0.012 0.004 0.219 
+
+Locus 417 : SNP72 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 418 : SNP634 
+2 alleles
+0.0% missing data
+   3   (0.753) 0.587 0.962 0.982 
+   1   (0.247) 0.413 0.038 0.018 
+
+Locus 419 : SNP189 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.931 0.987 
+   1   (0.177) 0.012 0.069 0.013 
+
+Locus 420 : SNP191 
+2 alleles
+0.0% missing data
+   2   (0.238) 0.016 0.021 0.121 
+   4   (0.762) 0.984 0.979 0.879 
+
+Locus 421 : SNP738 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 422 : SNP49 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.996 0.833 
+   2   (0.177) 0.012 0.004 0.167 
+
+Locus 423 : SNP97 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 424 : SNP365 
+2 alleles
+0.0% missing data
+   4   (0.817) 0.985 0.915 0.986 
+   2   (0.183) 0.015 0.085 0.014 
+
+Locus 425 : SNP104 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.989 0.996 0.885 
+   2   (0.168) 0.011 0.004 0.115 
+
+Locus 426 : SNP206 
+2 alleles
+0.0% missing data
+   3   (0.833) 0.989 0.964 0.988 
+   1   (0.167) 0.011 0.036 0.012 
+
+Locus 427 : SNP127 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 428 : SNP240 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 429 : SNP156 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 430 : SNP111 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 431 : SNP22 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 432 : SNP151 
+2 alleles
+0.0% missing data
+   1   (0.822) 0.988 0.931 0.987 
+   3   (0.178) 0.012 0.069 0.013 
+
+Locus 433 : SNP79 
+2 alleles
+0.0% missing data
+   2   (0.817) 0.988 0.996 0.781 
+   1   (0.183) 0.012 0.004 0.219 
+
+Locus 434 : SNP529 
+2 alleles
+0.0% missing data
+   1   (0.833) 0.989 0.996 0.885 
+   3   (0.167) 0.011 0.004 0.115 
+
+Locus 435 : SNP574 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 436 : SNP1389 
+2 alleles
+0.0% missing data
+   2   (0.637) 0.037 0.762 0.973 
+   4   (0.363) 0.963 0.238 0.027 
+
+Locus 437 : SNP1112 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 438 : SNP814 
+2 alleles
+0.0% missing data
+   4   (0.222) 0.015 0.005 0.583 
+   1   (0.778) 0.985 0.995 0.417 
+
+Locus 439 : SNP197 
+2 alleles
+0.0% missing data
+   2   (0.805) 0.987 0.996 0.677 
+   4   (0.195) 0.013 0.004 0.323 
+
+Locus 440 : SNP39 
+3 alleles
+0.0% missing data
+   1   (0.448) 0.496 0.499 0.548 
+   2   (0.428) 0.495 0.499 0.392 
+   4   (0.124) 0.009 0.003 0.061 
+
+Locus 441 : SNP278 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 442 : SNP580 
+3 alleles
+0.0% missing data
+   2   (0.299) 0.869 0.006 0.433 
+   3   (0.530) 0.116 0.927 0.554 
+   1   (0.171) 0.015 0.067 0.013 
+
+Locus 443 : SNP134 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 444 : SNP148 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 445 : SNP250 
+2 alleles
+0.0% missing data
+   4   (0.744) 0.983 0.979 0.775 
+   2   (0.256) 0.017 0.021 0.225 
+
+Locus 446 : SNP726 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 447 : SNP275 
+2 alleles
+0.0% missing data
+   2   (0.834) 0.533 0.996 0.988 
+   4   (0.166) 0.467 0.004 0.012 
+
+Locus 448 : SNP154 
+2 alleles
+0.0% missing data
+   1   (0.805) 0.987 0.996 0.677 
+   3   (0.195) 0.013 0.004 0.323 
+
+Locus 449 : SNP506 
+2 alleles
+0.0% missing data
+   4   (0.719) 0.970 0.914 0.876 
+   2   (0.281) 0.030 0.086 0.124 
+
+Locus 450 : SNP43 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 451 : SNP52 
+2 alleles
+0.0% missing data
+   1   (0.228) 0.015 0.005 0.634 
+   3   (0.772) 0.985 0.995 0.366 
+
+Locus 452 : SNP37 
+2 alleles
+0.0% missing data
+   4   (0.726) 0.981 0.962 0.774 
+   3   (0.274) 0.019 0.038 0.226 
+
+Locus 453 : SNP196 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 454 : SNP282 
+2 alleles
+0.0% missing data
+   4   (0.831) 0.436 0.996 0.987 
+   2   (0.169) 0.564 0.004 0.013 
+
+Locus 455 : SNP214 
+2 alleles
+0.0% missing data
+   4   (0.816) 0.988 0.996 0.780 
+   2   (0.184) 0.012 0.004 0.220 
+
+Locus 456 : SNP744 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 457 : SNP728 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 458 : SNP124 
+2 alleles
+0.0% missing data
+   3   (0.777) 0.985 0.995 0.418 
+   4   (0.223) 0.015 0.005 0.582 
+
+Locus 459 : SNP1349 
+2 alleles
+0.0% missing data
+   3   (0.806) 0.987 0.996 0.677 
+   2   (0.194) 0.013 0.004 0.323 
+
+Locus 460 : SNP1435 
+2 alleles
+0.0% missing data
+   3   (0.807) 0.987 0.849 0.986 
+   2   (0.193) 0.013 0.151 0.014 
+
+Locus 461 : SNP141 
+2 alleles
+0.0% missing data
+   3   (0.337) 0.023 0.007 0.950 
+   1   (0.663) 0.977 0.993 0.050 
+
+Locus 462 : SNP359 
+3 alleles
+0.0% missing data
+   4   (0.682) 0.978 0.977 0.668 
+   3   (0.175) 0.012 0.004 0.322 
+   2   (0.143) 0.010 0.019 0.011 
+
+Locus 463 : SNP708 
+2 alleles
+0.0% missing data
+   3   (0.845) 0.866 0.993 0.988 
+   1   (0.155) 0.134 0.007 0.012 
+
+Locus 464 : SNP701 
+2 alleles
+0.0% missing data
+   4   (0.818) 0.159 0.996 0.986 
+   1   (0.182) 0.841 0.004 0.014 
+
+Locus 465 : SNP283 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 466 : SNP110 
+2 alleles
+0.0% missing data
+   3   (0.725) 0.982 0.830 0.929 
+   2   (0.275) 0.018 0.170 0.071 
+
+Locus 467 : SNP144 
+2 alleles
+0.0% missing data
+   2   (0.823) 0.988 0.996 0.833 
+   1   (0.177) 0.012 0.004 0.167 
+
+Locus 468 : SNP703 
+2 alleles
+0.0% missing data
+   4   (0.818) 0.158 0.996 0.987 
+   3   (0.182) 0.842 0.004 0.013 
+
+Locus 469 : SNP27 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 470 : SNP231 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.989 0.996 0.885 
+   2   (0.168) 0.011 0.004 0.115 
+
+Locus 471 : SNP144 
+3 alleles
+0.0% missing data
+   4   (0.314) 0.377 0.167 0.126 
+   2   (0.482) 0.609 0.763 0.808 
+   1   (0.205) 0.014 0.069 0.066 
+
+Locus 472 : SNP130 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 473 : SNP108 
+2 alleles
+0.0% missing data
+   4   (0.652) 0.750 0.213 0.974 
+   1   (0.348) 0.250 0.787 0.026 
+
+Locus 474 : SNP1247 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 475 : SNP138 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.989 0.964 0.988 
+   4   (0.165) 0.011 0.036 0.012 
+
+Locus 476 : SNP2156 
+2 alleles
+0.0% missing data
+   2   (0.710) 0.980 0.961 0.669 
+   4   (0.290) 0.020 0.039 0.331 
+
+Locus 477 : SNP100 
+2 alleles
+0.0% missing data
+   4   (0.801) 0.969 0.868 0.985 
+   2   (0.199) 0.031 0.132 0.015 
+
+Locus 478 : SNP231 
+2 alleles
+0.0% missing data
+   2   (0.847) 0.989 0.980 0.989 
+   4   (0.153) 0.011 0.020 0.011 
+
+Locus 479 : SNP1069 
+2 alleles
+0.0% missing data
+   4   (0.249) 0.017 0.021 0.173 
+   2   (0.751) 0.983 0.979 0.827 
+
+Locus 480 : SNP1150 
+2 alleles
+0.0% missing data
+   4   (0.827) 0.988 0.947 0.987 
+   2   (0.173) 0.012 0.053 0.013 
+
+Locus 481 : SNP56 
+2 alleles
+0.0% missing data
+   4   (0.823) 0.988 0.931 0.987 
+   3   (0.177) 0.012 0.069 0.013 
+
+Locus 482 : SNP569 
+2 alleles
+0.0% missing data
+   2   (0.817) 0.159 0.996 0.986 
+   4   (0.183) 0.841 0.004 0.014 
+
+Locus 483 : SNP176 
+2 alleles
+0.0% missing data
+   2   (0.677) 0.980 0.747 0.821 
+   4   (0.323) 0.020 0.253 0.179 
+
+Locus 484 : SNP1447 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 485 : SNP495 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.988 0.964 0.988 
+   2   (0.166) 0.012 0.036 0.012 
+
+Locus 486 : SNP88 
+2 alleles
+0.0% missing data
+   1   (0.834) 0.988 0.964 0.988 
+   2   (0.166) 0.012 0.036 0.012 
+
+Locus 487 : SNP134 
+2 alleles
+0.0% missing data
+   3   (0.727) 0.986 0.188 0.980 
+   1   (0.273) 0.014 0.812 0.020 
+
+Locus 488 : SNP1408 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.989 0.947 0.987 
+   4   (0.172) 0.011 0.053 0.013 
+
+Locus 489 : SNP1023 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 490 : SNP390 
+2 alleles
+0.0% missing data
+   4   (0.228) 0.016 0.005 0.635 
+   2   (0.772) 0.984 0.995 0.365 
+
+Locus 491 : SNP973 
+2 alleles
+0.0% missing data
+   4   (0.805) 0.987 0.996 0.677 
+   2   (0.195) 0.013 0.004 0.323 
+
+Locus 492 : SNP222 
+2 alleles
+0.0% missing data
+   4   (0.503) 0.110 0.532 0.809 
+   2   (0.497) 0.890 0.468 0.191 
+
+Locus 493 : SNP303 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 494 : SNP336 
+2 alleles
+0.0% missing data
+   3   (0.845) 0.866 0.993 0.988 
+   1   (0.155) 0.134 0.007 0.012 
+
+Locus 495 : SNP153 
+2 alleles
+0.0% missing data
+   2   (0.476) 0.668 0.386 0.344 
+   4   (0.524) 0.332 0.614 0.656 
+
+Locus 496 : SNP155 
+2 alleles
+0.0% missing data
+   3   (0.658) 0.902 0.791 0.820 
+   2   (0.342) 0.098 0.209 0.180 
+
+Locus 497 : SNP198 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 498 : SNP69 
+2 alleles
+0.0% missing data
+   3   (0.229) 0.015 0.005 0.634 
+   1   (0.771) 0.985 0.995 0.366 
+
+Locus 499 : SNP97 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 500 : SNP195 
+2 alleles
+0.0% missing data
+   3   (0.805) 0.987 0.996 0.677 
+   1   (0.195) 0.013 0.004 0.323 
+
+Locus 501 : SNP469 
+2 alleles
+0.0% missing data
+   4   (0.338) 0.023 0.007 0.951 
+   2   (0.662) 0.977 0.993 0.049 
+
+Locus 502 : SNP69 
+2 alleles
+0.0% missing data
+   4   (0.643) 0.849 0.859 0.819 
+   2   (0.357) 0.151 0.141 0.181 
+
+Locus 503 : SNP769 
+2 alleles
+0.0% missing data
+   3   (0.189) 0.013 0.004 0.271 
+   2   (0.811) 0.987 0.996 0.729 
+
+Locus 504 : SNP1043 
+2 alleles
+0.0% missing data
+   2   (0.729) 0.982 0.929 0.877 
+   4   (0.271) 0.018 0.071 0.123 
+
+Locus 505 : SNP63 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 506 : SNP143 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 507 : SNP844 
+2 alleles
+0.0% missing data
+   2   (0.805) 0.987 0.996 0.677 
+   3   (0.195) 0.013 0.004 0.323 
+
+Locus 508 : SNP1647 
+2 alleles
+0.0% missing data
+   4   (0.264) 0.018 0.006 0.843 
+   3   (0.736) 0.982 0.994 0.157 
+
+Locus 509 : SNP269 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 510 : SNP69 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   3   (0.165) 0.011 0.036 0.012 
+
+Locus 511 : SNP177 
+2 alleles
+0.0% missing data
+   2   (0.519) 0.450 0.633 0.553 
+   1   (0.481) 0.550 0.367 0.447 
+
+Locus 512 : SNP189 
+2 alleles
+0.0% missing data
+   1   (0.724) 0.982 0.913 0.877 
+   4   (0.276) 0.018 0.087 0.123 
+
+Locus 513 : SNP1613 
+2 alleles
+0.0% missing data
+   3   (0.609) 0.684 0.087 0.971 
+   1   (0.391) 0.316 0.913 0.029 
+
+Locus 514 : SNP52 
+1 alleles
+2.4% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 515 : SNP213 
+2 alleles
+0.0% missing data
+   4   (0.846) 0.865 0.993 0.988 
+   2   (0.154) 0.135 0.007 0.012 
+
+Locus 516 : SNP293 
+2 alleles
+0.0% missing data
+   4   (0.535) 0.502 0.760 0.502 
+   1   (0.465) 0.498 0.240 0.498 
+
+Locus 517 : SNP47 
+2 alleles
+0.0% missing data
+   2   (0.828) 0.988 0.947 0.987 
+   4   (0.172) 0.012 0.053 0.013 
+
+Locus 518 : SNP289 
+2 alleles
+0.0% missing data
+   3   (0.766) 0.980 0.521 0.983 
+   2   (0.234) 0.020 0.479 0.017 
+
+Locus 519 : SNP150 
+3 alleles
+0.0% missing data
+   4   (0.708) 0.974 0.946 0.978 
+   1   (0.141) 0.013 0.019 0.011 
+   2   (0.151) 0.013 0.036 0.011 
+
+Locus 520 : SNP144 
+2 alleles
+0.0% missing data
+   4   (0.755) 0.984 0.946 0.931 
+   1   (0.245) 0.016 0.054 0.069 
+
+Locus 521 : SNP97 
+2 alleles
+0.0% missing data
+   1   (0.177) 0.012 0.004 0.167 
+   3   (0.823) 0.988 0.996 0.833 
+
+Locus 522 : SNP670 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 523 : SNP637 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 524 : SNP89 
+2 alleles
+0.0% missing data
+   3   (0.184) 0.012 0.004 0.219 
+   2   (0.816) 0.988 0.996 0.781 
+
+Locus 525 : SNP87 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 526 : SNP688 
+2 alleles
+0.0% missing data
+   2   (0.568) 0.972 0.844 0.144 
+   4   (0.432) 0.028 0.156 0.856 
+
+Locus 527 : SNP226 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 528 : SNP243 
+2 alleles
+0.0% missing data
+   4   (0.805) 0.987 0.996 0.677 
+   1   (0.195) 0.013 0.004 0.323 
+
+Locus 529 : SNP21 
+2 alleles
+0.0% missing data
+   2   (0.698) 0.980 0.797 0.875 
+   1   (0.302) 0.020 0.203 0.125 
+
+Locus 530 : SNP1650 
+2 alleles
+0.0% missing data
+   2   (0.834) 0.989 0.964 0.988 
+   4   (0.166) 0.011 0.036 0.012 
+
+Locus 531 : SNP499 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 532 : SNP170 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 533 : SNP298 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 534 : SNP523 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 535 : SNP406 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 536 : SNP1745 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 537 : SNP463 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.989 0.947 0.987 
+   1   (0.172) 0.011 0.053 0.013 
+
+Locus 538 : SNP33 
+2 alleles
+0.0% missing data
+   2   (0.812) 0.988 0.881 0.986 
+   4   (0.188) 0.012 0.119 0.014 
+
+Locus 539 : SNP178 
+2 alleles
+0.0% missing data
+   1   (0.834) 0.988 0.964 0.988 
+   3   (0.166) 0.012 0.036 0.012 
+
+Locus 540 : SNP111 
+2 alleles
+0.0% missing data
+   3   (0.817) 0.988 0.996 0.781 
+   1   (0.183) 0.012 0.004 0.219 
+
+Locus 541 : SNP599 
+2 alleles
+0.0% missing data
+   1   (0.846) 0.989 0.981 0.988 
+   2   (0.154) 0.011 0.019 0.012 
+
+Locus 542 : SNP49 
+2 alleles
+0.0% missing data
+   2   (0.206) 0.014 0.004 0.427 
+   1   (0.794) 0.986 0.996 0.573 
+
+Locus 543 : SNP1303 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 544 : SNP144 
+2 alleles
+0.0% missing data
+   1   (0.534) 0.171 0.558 0.863 
+   2   (0.466) 0.829 0.442 0.137 
+
+Locus 545 : SNP77 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 546 : SNP266 
+2 alleles
+0.0% missing data
+   2   (0.678) 0.979 0.895 0.667 
+   1   (0.322) 0.021 0.105 0.333 
+
+Locus 547 : SNP139 
+2 alleles
+0.0% missing data
+   2   (0.833) 0.989 0.996 0.885 
+   3   (0.167) 0.011 0.004 0.115 
+
+Locus 548 : SNP514 
+2 alleles
+0.0% missing data
+   2   (0.430) 0.029 0.025 0.957 
+   1   (0.570) 0.971 0.975 0.043 
+
+Locus 549 : SNP200 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.988 0.947 0.987 
+   1   (0.172) 0.012 0.053 0.013 
+
+Locus 550 : SNP839 
+2 alleles
+0.0% missing data
+   2   (0.801) 0.987 0.816 0.985 
+   4   (0.199) 0.013 0.184 0.015 
+
+Locus 551 : SNP162 
+3 alleles
+0.0% missing data
+   1   (0.677) 0.939 0.949 0.873 
+   3   (0.151) 0.011 0.003 0.114 
+   2   (0.172) 0.051 0.048 0.013 
+
+Locus 552 : SNP107 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 553 : SNP121 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 554 : SNP194 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 555 : SNP2474 
+2 alleles
+0.0% missing data
+   3   (0.633) 0.894 0.823 0.664 
+   1   (0.367) 0.106 0.177 0.336 
+
+Locus 556 : SNP1336 
+2 alleles
+0.0% missing data
+   1   (0.228) 0.015 0.005 0.634 
+   2   (0.772) 0.985 0.995 0.366 
+
+Locus 557 : SNP1198 
+2 alleles
+0.0% missing data
+   1   (0.741) 0.969 0.332 0.981 
+   3   (0.259) 0.031 0.668 0.019 
+
+Locus 558 : SNP89 
+2 alleles
+0.0% missing data
+   3   (0.778) 0.985 0.979 0.932 
+   1   (0.222) 0.015 0.021 0.068 
+
+Locus 559 : SNP73 
+2 alleles
+0.0% missing data
+   1   (0.771) 0.986 0.533 0.983 
+   3   (0.229) 0.014 0.467 0.017 
+
+Locus 560 : SNP157 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 561 : SNP1152 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 562 : SNP99 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 563 : SNP1248 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 564 : SNP1249 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 565 : SNP132 
+2 alleles
+0.0% missing data
+   3   (0.818) 0.987 0.915 0.986 
+   1   (0.182) 0.013 0.085 0.014 
+
+Locus 566 : SNP161 
+1 alleles
+4.8% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 567 : SNP34 
+2 alleles
+2.4% missing data
+   1   (0.845) 0.990 0.997 0.937 
+   3   (0.155) 0.010 0.003 0.063 
+
+Locus 568 : SNP460 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 569 : SNP125 
+2 alleles
+0.0% missing data
+   2   (0.487) 0.339 0.322 0.654 
+   1   (0.513) 0.661 0.678 0.346 
+
+Locus 570 : SNP188 
+2 alleles
+0.0% missing data
+   1   (0.845) 0.990 0.997 0.937 
+   4   (0.155) 0.010 0.003 0.063 
+
+Locus 571 : SNP197 
+2 alleles
+0.0% missing data
+   3   (0.235) 0.016 0.005 0.687 
+   4   (0.765) 0.984 0.995 0.313 
+
+Locus 572 : SNP797 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 573 : SNP1035 
+2 alleles
+0.0% missing data
+   3   (0.827) 0.988 0.947 0.987 
+   1   (0.173) 0.012 0.053 0.013 
+
+Locus 574 : SNP153 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 575 : SNP133 
+2 alleles
+0.0% missing data
+   4   (0.826) 0.579 0.992 0.987 
+   2   (0.174) 0.421 0.008 0.013 
+
+Locus 576 : SNP24 
+2 alleles
+0.0% missing data
+   1   (0.846) 0.990 0.980 0.988 
+   3   (0.154) 0.010 0.020 0.012 
+
+Locus 577 : SNP843 
+2 alleles
+0.0% missing data
+   1   (0.845) 0.987 0.981 0.988 
+   3   (0.155) 0.013 0.019 0.012 
+
+Locus 578 : SNP236 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 579 : SNP402 
+2 alleles
+0.0% missing data
+   3   (0.815) 0.926 0.970 0.986 
+   1   (0.185) 0.074 0.030 0.014 
+
+Locus 580 : SNP176 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.989 0.947 0.987 
+   1   (0.172) 0.011 0.053 0.013 
+
+Locus 581 : SNP177 
+2 alleles
+0.0% missing data
+   3   (0.776) 0.953 0.724 0.983 
+   1   (0.224) 0.047 0.276 0.017 
+
+Locus 582 : SNP1091 
+3 alleles
+0.0% missing data
+   3   (0.698) 0.660 0.959 0.978 
+   2   (0.148) 0.330 0.005 0.011 
+   1   (0.154) 0.010 0.036 0.011 
+
+Locus 583 : SNP1084 
+2 alleles
+0.0% missing data
+   1   (0.806) 0.987 0.996 0.677 
+   3   (0.194) 0.013 0.004 0.323 
+
+Locus 584 : SNP36 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 585 : SNP70 
+2 alleles
+0.0% missing data
+   1   (0.715) 0.975 0.929 0.825 
+   3   (0.285) 0.025 0.071 0.175 
+
+Locus 586 : SNP268 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 587 : SNP178 
+2 alleles
+0.0% missing data
+   3   (0.819) 0.159 0.996 0.987 
+   2   (0.181) 0.841 0.004 0.013 
+
+Locus 588 : SNP527 
+2 alleles
+0.0% missing data
+   1   (0.827) 0.988 0.947 0.987 
+   2   (0.173) 0.012 0.053 0.013 
+
+Locus 589 : SNP231 
+2 alleles
+0.0% missing data
+   1   (0.493) 0.487 0.517 0.448 
+   3   (0.507) 0.513 0.483 0.552 
+
+Locus 590 : SNP177 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 591 : SNP403 
+2 alleles
+0.0% missing data
+   2   (0.573) 0.866 0.593 0.660 
+   4   (0.427) 0.134 0.407 0.340 
+
+Locus 592 : SNP1014 
+2 alleles
+0.0% missing data
+   2   (0.805) 0.987 0.996 0.677 
+   4   (0.195) 0.013 0.004 0.323 
+
+Locus 593 : SNP309 
+2 alleles
+0.0% missing data
+   1   (0.846) 0.990 0.997 0.937 
+   3   (0.154) 0.010 0.003 0.063 
+
+Locus 594 : SNP72 
+2 alleles
+0.0% missing data
+   4   (0.429) 0.027 0.420 0.649 
+   2   (0.571) 0.973 0.580 0.351 
+
+Locus 595 : SNP1327 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 596 : SNP125 
+2 alleles
+0.0% missing data
+   4   (0.368) 0.024 0.106 0.645 
+   2   (0.632) 0.976 0.894 0.355 
+
+Locus 597 : SNP1237 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 598 : SNP772 
+2 alleles
+0.0% missing data
+   3   (0.701) 0.980 0.912 0.772 
+   1   (0.299) 0.020 0.088 0.228 
+
+Locus 599 : SNP31 
+2 alleles
+0.0% missing data
+   3   (0.403) 0.406 0.106 0.339 
+   1   (0.597) 0.594 0.894 0.661 
+
+Locus 600 : SNP11 
+2 alleles
+0.0% missing data
+   3   (0.838) 0.580 0.997 0.988 
+   1   (0.162) 0.420 0.003 0.012 
+
+Locus 601 : SNP88 
+2 alleles
+0.0% missing data
+   3   (0.838) 0.582 0.997 0.988 
+   1   (0.162) 0.418 0.003 0.012 
+
+Locus 602 : SNP1481 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 603 : SNP135 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 604 : SNP132 
+2 alleles
+0.0% missing data
+   4   (0.762) 0.983 0.979 0.879 
+   2   (0.238) 0.017 0.021 0.121 
+
+Locus 605 : SNP274 
+2 alleles
+0.0% missing data
+   1   (0.568) 0.862 0.627 0.608 
+   4   (0.432) 0.138 0.373 0.392 
+
+Locus 606 : SNP223 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 607 : SNP872 
+2 alleles
+0.0% missing data
+   2   (0.636) 0.042 0.992 0.561 
+   4   (0.364) 0.958 0.008 0.439 
+
+Locus 608 : SNP12 
+2 alleles
+0.0% missing data
+   4   (0.597) 0.059 0.466 0.970 
+   2   (0.403) 0.941 0.534 0.030 
+
+Locus 609 : SNP11 
+2 alleles
+0.0% missing data
+   4   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 610 : SNP2420 
+2 alleles
+0.0% missing data
+   3   (0.216) 0.014 0.005 0.530 
+   2   (0.784) 0.986 0.995 0.470 
+
+Locus 611 : SNP595 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.981 0.915 0.986 
+   4   (0.184) 0.019 0.085 0.014 
+
+Locus 612 : SNP92 
+2 alleles
+0.0% missing data
+   4   (0.822) 0.988 0.931 0.987 
+   3   (0.178) 0.012 0.069 0.013 
+
+Locus 613 : SNP69 
+2 alleles
+0.0% missing data
+   2   (0.205) 0.014 0.004 0.427 
+   3   (0.795) 0.986 0.996 0.573 
+
+Locus 614 : SNP1454 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.885 
+   2   (0.168) 0.011 0.004 0.115 
+
+Locus 615 : SNP33 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 616 : SNP61 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 617 : SNP261 
+3 alleles
+0.0% missing data
+   3   (0.715) 0.981 0.978 0.927 
+   4   (0.142) 0.010 0.003 0.062 
+   1   (0.143) 0.010 0.019 0.011 
+
+Locus 618 : SNP248 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 619 : SNP163 
+2 alleles
+0.0% missing data
+   4   (0.667) 0.979 0.763 0.769 
+   2   (0.333) 0.021 0.237 0.231 
+
+Locus 620 : SNP142 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.988 0.947 0.987 
+   2   (0.172) 0.012 0.053 0.013 
+
+Locus 621 : SNP40 
+3 alleles
+0.0% missing data
+   2   (0.498) 0.085 0.742 0.962 
+   1   (0.284) 0.748 0.202 0.021 
+   4   (0.218) 0.167 0.056 0.016 
+
+Locus 622 : SNP195 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 623 : SNP131 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 624 : SNP356 
+3 alleles
+0.0% missing data
+   4   (0.702) 0.980 0.928 0.978 
+   2   (0.158) 0.010 0.052 0.012 
+   1   (0.141) 0.010 0.019 0.011 
+
+Locus 625 : SNP397 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 626 : SNP1195 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 627 : SNP86 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.988 0.947 0.987 
+   2   (0.172) 0.012 0.053 0.013 
+
+Locus 628 : SNP102 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 629 : SNP77 
+2 alleles
+0.0% missing data
+   3   (0.726) 0.985 0.174 0.980 
+   1   (0.274) 0.015 0.826 0.020 
+
+Locus 630 : SNP1292 
+3 alleles
+0.0% missing data
+   1   (0.490) 0.220 0.882 0.653 
+   4   (0.381) 0.773 0.099 0.337 
+   3   (0.129) 0.007 0.019 0.010 
+
+Locus 631 : SNP294 
+2 alleles
+0.0% missing data
+   2   (0.823) 0.988 0.931 0.987 
+   3   (0.177) 0.012 0.069 0.013 
+
+Locus 632 : SNP73 
+2 alleles
+0.0% missing data
+   3   (0.647) 0.649 0.957 0.768 
+   1   (0.353) 0.351 0.043 0.232 
+
+Locus 633 : SNP111 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 634 : SNP122 
+3 alleles
+0.0% missing data
+   2   (0.342) 0.370 0.088 0.437 
+   1   (0.452) 0.616 0.875 0.445 
+   3   (0.206) 0.014 0.037 0.118 
+
+Locus 635 : SNP338 
+2 alleles
+0.0% missing data
+   3   (0.729) 0.982 0.978 0.671 
+   1   (0.271) 0.018 0.022 0.329 
+
+Locus 636 : SNP495 
+2 alleles
+0.0% missing data
+   4   (0.788) 0.986 0.996 0.521 
+   2   (0.212) 0.014 0.004 0.479 
+
+Locus 637 : SNP1145 
+2 alleles
+0.0% missing data
+   4   (0.834) 0.989 0.964 0.988 
+   2   (0.166) 0.011 0.036 0.012 
+
+Locus 638 : SNP484 
+2 alleles
+0.0% missing data
+   2   (0.832) 0.989 0.996 0.885 
+   1   (0.168) 0.011 0.004 0.115 
+
+Locus 639 : SNP639 
+2 alleles
+0.0% missing data
+   2   (0.469) 0.492 0.452 0.343 
+   4   (0.531) 0.508 0.548 0.657 
+
+Locus 640 : SNP55 
+2 alleles
+0.0% missing data
+   4   (0.816) 0.988 0.996 0.781 
+   1   (0.184) 0.012 0.004 0.219 
+
+Locus 641 : SNP321 
+2 alleles
+0.0% missing data
+   2   (0.524) 0.423 0.109 0.914 
+   1   (0.476) 0.577 0.891 0.086 
+
+Locus 642 : SNP92 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 643 : SNP203 
+2 alleles
+0.0% missing data
+   3   (0.799) 0.987 0.799 0.985 
+   1   (0.201) 0.013 0.201 0.015 
+
+Locus 644 : SNP174 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 645 : SNP309 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 646 : SNP646 
+2 alleles
+0.0% missing data
+   3   (0.579) 0.045 0.970 0.660 
+   1   (0.421) 0.955 0.030 0.340 
+
+Locus 647 : SNP70 
+2 alleles
+0.0% missing data
+   4   (0.713) 0.980 0.945 0.772 
+   2   (0.287) 0.020 0.055 0.228 
+
+Locus 648 : SNP135 
+2 alleles
+0.0% missing data
+   3   (0.827) 0.581 0.992 0.987 
+   1   (0.173) 0.419 0.008 0.013 
+
+Locus 649 : SNP122 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 650 : SNP234 
+2 alleles
+0.0% missing data
+   4   (0.805) 0.987 0.996 0.677 
+   2   (0.195) 0.013 0.004 0.323 
+
+Locus 651 : SNP88 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 652 : SNP151 
+2 alleles
+0.0% missing data
+   4   (0.811) 0.987 0.996 0.729 
+   2   (0.189) 0.013 0.004 0.271 
+
+Locus 653 : SNP400 
+3 alleles
+0.0% missing data
+   4   (0.243) 0.016 0.005 0.481 
+   1   (0.243) 0.017 0.005 0.481 
+   2   (0.513) 0.967 0.990 0.038 
+
+Locus 654 : SNP547 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 655 : SNP193 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 656 : SNP1200 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 657 : SNP713 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 658 : SNP292 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 659 : SNP134 
+2 alleles
+0.0% missing data
+   1   (0.438) 0.480 0.291 0.290 
+   2   (0.562) 0.520 0.709 0.710 
+
+Locus 660 : SNP90 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 661 : SNP28 
+2 alleles
+0.0% missing data
+   3   (0.800) 0.987 0.996 0.625 
+   2   (0.200) 0.013 0.004 0.375 
+
+Locus 662 : SNP540 
+2 alleles
+0.0% missing data
+   1   (0.824) 0.988 0.996 0.833 
+   3   (0.176) 0.012 0.004 0.167 
+
+Locus 663 : SNP174 
+2 alleles
+0.0% missing data
+   4   (0.699) 0.886 0.428 0.977 
+   2   (0.301) 0.114 0.572 0.023 
+
+Locus 664 : SNP94 
+2 alleles
+0.0% missing data
+   4   (0.211) 0.014 0.004 0.479 
+   1   (0.789) 0.986 0.996 0.521 
+
+Locus 665 : SNP92 
+2 alleles
+0.0% missing data
+   3   (0.824) 0.988 0.996 0.833 
+   2   (0.176) 0.012 0.004 0.167 
+
+Locus 666 : SNP270 
+2 alleles
+0.0% missing data
+   3   (0.755) 0.798 0.820 0.982 
+   1   (0.245) 0.202 0.180 0.018 
+
+Locus 667 : SNP30 
+2 alleles
+0.0% missing data
+   1   (0.491) 0.510 0.483 0.448 
+   3   (0.509) 0.490 0.517 0.552 
+
+Locus 668 : SNP33 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 669 : SNP888 
+2 alleles
+0.0% missing data
+   4   (0.823) 0.988 0.931 0.987 
+   2   (0.177) 0.012 0.069 0.013 
+
+Locus 670 : SNP220 
+2 alleles
+0.0% missing data
+   3   (0.336) 0.023 0.007 0.950 
+   2   (0.664) 0.977 0.993 0.050 
+
+Locus 671 : SNP115 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 672 : SNP141 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 673 : SNP531 
+2 alleles
+0.0% missing data
+   1   (0.846) 0.989 0.981 0.989 
+   2   (0.154) 0.011 0.019 0.011 
+
+Locus 674 : SNP31 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 675 : SNP213 
+2 alleles
+0.0% missing data
+   2   (0.828) 0.989 0.947 0.987 
+   3   (0.172) 0.011 0.053 0.013 
+
+Locus 676 : SNP330 
+2 alleles
+0.0% missing data
+   1   (0.588) 0.871 0.344 0.866 
+   3   (0.412) 0.129 0.656 0.134 
+
+Locus 677 : SNP1781 
+2 alleles
+0.0% missing data
+   3   (0.669) 0.983 0.050 0.975 
+   4   (0.331) 0.017 0.950 0.025 
+
+Locus 678 : SNP291 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 679 : SNP78 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 680 : SNP83 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 681 : SNP245 
+2 alleles
+0.0% missing data
+   1   (0.805) 0.987 0.996 0.677 
+   3   (0.195) 0.013 0.004 0.323 
+
+Locus 682 : SNP495 
+2 alleles
+0.0% missing data
+   4   (0.201) 0.013 0.004 0.375 
+   2   (0.799) 0.987 0.996 0.625 
+
+Locus 683 : SNP560 
+3 alleles
+0.0% missing data
+   3   (0.707) 0.980 0.961 0.926 
+   1   (0.141) 0.009 0.003 0.062 
+   4   (0.152) 0.011 0.036 0.011 
+
+Locus 684 : SNP141 
+2 alleles
+0.0% missing data
+   1   (0.681) 0.144 0.867 0.976 
+   3   (0.319) 0.856 0.133 0.024 
+
+Locus 685 : SNP639 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 686 : SNP107 
+2 alleles
+0.0% missing data
+   4   (0.730) 0.982 0.979 0.670 
+   1   (0.270) 0.018 0.021 0.330 
+
+Locus 687 : SNP633 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.996 0.832 
+   1   (0.177) 0.012 0.004 0.168 
+
+Locus 688 : SNP185 
+2 alleles
+0.0% missing data
+   4   (0.612) 0.822 0.733 0.714 
+   2   (0.388) 0.178 0.267 0.286 
+
+Locus 689 : SNP695 
+3 alleles
+0.0% missing data
+   1   (0.469) 0.541 0.703 0.549 
+   2   (0.407) 0.450 0.278 0.442 
+   3   (0.124) 0.009 0.019 0.009 
+
+Locus 690 : SNP60 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 691 : SNP251 
+2 alleles
+0.0% missing data
+   2   (0.810) 0.987 0.996 0.729 
+   1   (0.190) 0.013 0.004 0.271 
+
+Locus 692 : SNP292 
+2 alleles
+0.0% missing data
+   3   (0.683) 0.980 0.697 0.874 
+   2   (0.317) 0.020 0.303 0.126 
+
+Locus 693 : SNP228 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 694 : SNP517 
+2 alleles
+0.0% missing data
+   2   (0.831) 0.989 0.996 0.884 
+   4   (0.169) 0.011 0.004 0.116 
+
+Locus 695 : SNP227 
+2 alleles
+0.0% missing data
+   3   (0.578) 0.974 0.629 0.351 
+   1   (0.422) 0.026 0.371 0.649 
+
+Locus 696 : SNP192 
+2 alleles
+0.0% missing data
+   4   (0.778) 0.986 0.616 0.983 
+   2   (0.222) 0.014 0.384 0.017 
+
+Locus 697 : SNP70 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 698 : SNP1915 
+2 alleles
+0.0% missing data
+   4   (0.819) 0.159 0.996 0.986 
+   2   (0.181) 0.841 0.004 0.014 
+
+Locus 699 : SNP25 
+2 alleles
+0.0% missing data
+   2   (0.835) 0.535 0.996 0.988 
+   1   (0.165) 0.465 0.004 0.012 
+
+Locus 700 : SNP111 
+2 alleles
+0.0% missing data
+   1   (0.548) 0.802 0.585 0.555 
+   3   (0.452) 0.198 0.415 0.445 
+
+Locus 701 : SNP181 
+2 alleles
+0.0% missing data
+   4   (0.783) 0.987 0.650 0.984 
+   2   (0.217) 0.013 0.350 0.016 
+
+Locus 702 : SNP269 
+3 alleles
+0.0% missing data
+   3   (0.418) 0.180 0.334 0.494 
+   4   (0.352) 0.028 0.661 0.335 
+   1   (0.231) 0.791 0.005 0.171 
+
+Locus 703 : SNP241 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 704 : SNP357 
+2 alleles
+0.0% missing data
+   3   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 705 : SNP256 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.988 0.947 0.987 
+   1   (0.172) 0.012 0.053 0.013 
+
+Locus 706 : SNP955 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 707 : SNP111 
+3 alleles
+0.0% missing data
+   2   (0.471) 0.497 0.531 0.755 
+   4   (0.395) 0.493 0.434 0.235 
+   1   (0.134) 0.010 0.035 0.010 
+
+Locus 708 : SNP244 
+2 alleles
+0.0% missing data
+   2   (0.833) 0.989 0.996 0.885 
+   3   (0.167) 0.011 0.004 0.115 
+
+Locus 709 : SNP949 
+2 alleles
+0.0% missing data
+   3   (0.711) 0.980 0.961 0.670 
+   2   (0.289) 0.020 0.039 0.330 
+
+Locus 710 : SNP197 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 711 : SNP191 
+2 alleles
+0.0% missing data
+   3   (0.336) 0.023 0.007 0.950 
+   1   (0.664) 0.977 0.993 0.050 
+
+Locus 712 : SNP300 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 713 : SNP397 
+2 alleles
+0.0% missing data
+   3   (0.828) 0.345 0.996 0.987 
+   1   (0.172) 0.655 0.004 0.013 
+
+Locus 714 : SNP213 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 715 : SNP32 
+2 alleles
+0.0% missing data
+   4   (0.846) 0.990 0.980 0.988 
+   2   (0.154) 0.010 0.020 0.012 
+
+Locus 716 : SNP374 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 717 : SNP338 
+2 alleles
+0.0% missing data
+   1   (0.337) 0.023 0.007 0.951 
+   3   (0.663) 0.977 0.993 0.049 
+
+Locus 718 : SNP627 
+3 alleles
+0.0% missing data
+   1   (0.358) 0.963 0.010 0.747 
+   2   (0.429) 0.026 0.665 0.238 
+   3   (0.213) 0.011 0.325 0.016 
+
+Locus 719 : SNP647 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 720 : SNP161 
+1 alleles
+2.4% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 721 : SNP883 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 722 : SNP53 
+2 alleles
+0.0% missing data
+   2   (0.818) 0.988 0.915 0.986 
+   1   (0.182) 0.012 0.085 0.014 
+
+Locus 723 : SNP165 
+2 alleles
+0.0% missing data
+   1   (0.828) 0.989 0.947 0.987 
+   2   (0.172) 0.011 0.053 0.013 
+
+Locus 724 : SNP93 
+2 alleles
+2.4% missing data
+   4   (0.745) 0.983 0.961 0.878 
+   1   (0.255) 0.017 0.039 0.122 
+
+Locus 725 : SNP326 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 726 : SNP250 
+2 alleles
+0.0% missing data
+   4   (0.830) 0.381 0.996 0.987 
+   2   (0.170) 0.619 0.004 0.013 
+
+Locus 727 : SNP76 
+2 alleles
+7.1% missing data
+   4   (0.198) 0.013 0.005 0.324 
+   1   (0.802) 0.987 0.995 0.676 
+
+Locus 728 : SNP514 
+2 alleles
+0.0% missing data
+   1   (0.825) 0.988 0.996 0.833 
+   4   (0.175) 0.012 0.004 0.167 
+
+Locus 729 : SNP71 
+3 alleles
+0.0% missing data
+   2   (0.715) 0.855 0.974 0.979 
+   4   (0.143) 0.009 0.019 0.011 
+   1   (0.142) 0.136 0.007 0.011 
+
+Locus 730 : SNP149 
+2 alleles
+0.0% missing data
+   4   (0.729) 0.982 0.929 0.877 
+   2   (0.271) 0.018 0.071 0.123 
+
+Locus 731 : SNP150 
+2 alleles
+0.0% missing data
+   4   (0.808) 0.987 0.865 0.986 
+   2   (0.192) 0.013 0.135 0.014 
+
+Locus 732 : SNP492 
+2 alleles
+0.0% missing data
+   1   (0.730) 0.975 0.241 0.980 
+   3   (0.270) 0.025 0.759 0.020 
+
+Locus 733 : SNP632 
+2 alleles
+0.0% missing data
+   4   (0.814) 0.988 0.898 0.986 
+   2   (0.186) 0.012 0.102 0.014 
+
+Locus 734 : SNP608 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 735 : SNP234 
+2 alleles
+0.0% missing data
+   3   (0.799) 0.987 0.996 0.625 
+   1   (0.201) 0.013 0.004 0.375 
+
+Locus 736 : SNP103 
+2 alleles
+0.0% missing data
+   4   (0.839) 0.581 0.997 0.988 
+   1   (0.161) 0.419 0.003 0.012 
+
+Locus 737 : SNP173 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 738 : SNP1006 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   3   (0.165) 0.011 0.036 0.012 
+
+Locus 739 : SNP218 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 740 : SNP23 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.988 0.964 0.988 
+   2   (0.165) 0.012 0.036 0.012 
+
+Locus 741 : SNP228 
+2 alleles
+0.0% missing data
+   3   (0.832) 0.989 0.996 0.885 
+   1   (0.168) 0.011 0.004 0.115 
+
+Locus 742 : SNP502 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 743 : SNP11 
+2 alleles
+0.0% missing data
+   1   (0.730) 0.982 0.929 0.877 
+   3   (0.270) 0.018 0.071 0.123 
+
+Locus 744 : SNP276 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 745 : SNP191 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 746 : SNP998 
+2 alleles
+0.0% missing data
+   4   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 747 : SNP517 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 748 : SNP42 
+2 alleles
+0.0% missing data
+   1   (0.308) 0.021 0.022 0.641 
+   2   (0.692) 0.979 0.978 0.359 
+
+Locus 749 : SNP840 
+3 alleles
+0.0% missing data
+   3   (0.715) 0.979 0.978 0.927 
+   1   (0.142) 0.010 0.003 0.062 
+   2   (0.143) 0.012 0.019 0.011 
+
+Locus 750 : SNP587 
+2 alleles
+0.0% missing data
+   3   (0.801) 0.986 0.996 0.625 
+   4   (0.199) 0.014 0.004 0.375 
+
+Locus 751 : SNP36 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 752 : SNP32 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 753 : SNP123 
+3 alleles
+0.0% missing data
+   3   (0.717) 0.980 0.962 0.979 
+   1   (0.142) 0.010 0.019 0.011 
+   2   (0.141) 0.010 0.019 0.011 
+
+Locus 754 : SNP138 
+2 alleles
+0.0% missing data
+   1   (0.835) 0.989 0.964 0.988 
+   3   (0.165) 0.011 0.036 0.012 
+
+Locus 755 : SNP102 
+2 alleles
+0.0% missing data
+   3   (0.228) 0.015 0.005 0.634 
+   1   (0.772) 0.985 0.995 0.366 
+
+Locus 756 : SNP164 
+2 alleles
+4.8% missing data
+   4   (0.814) 0.988 0.914 0.983 
+   2   (0.186) 0.012 0.086 0.017 
+
+Locus 757 : SNP436 
+2 alleles
+0.0% missing data
+   1   (0.805) 0.987 0.996 0.677 
+   2   (0.195) 0.013 0.004 0.323 
+
+Locus 758 : SNP218 
+2 alleles
+0.0% missing data
+   4   (0.847) 0.990 0.981 0.988 
+   1   (0.153) 0.010 0.019 0.012 
+
+Locus 759 : SNP1188 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.885 
+   1   (0.168) 0.011 0.004 0.115 
+
+Locus 760 : SNP453 
+2 alleles
+0.0% missing data
+   3   (0.827) 0.988 0.947 0.987 
+   2   (0.173) 0.012 0.053 0.013 
+
+Locus 761 : SNP122 
+2 alleles
+0.0% missing data
+   4   (0.743) 0.945 0.421 0.981 
+   2   (0.257) 0.055 0.579 0.019 
+
+Locus 762 : SNP891 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 763 : SNP428 
+2 alleles
+0.0% missing data
+   3   (0.641) 0.913 0.724 0.768 
+   2   (0.359) 0.087 0.276 0.232 
+
+Locus 764 : SNP1938 
+2 alleles
+0.0% missing data
+   2   (0.814) 0.988 0.898 0.986 
+   1   (0.186) 0.012 0.102 0.014 
+
+Locus 765 : SNP683 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   1   (0.165) 0.011 0.036 0.012 
+
+Locus 766 : SNP196 
+2 alleles
+0.0% missing data
+   3   (0.827) 0.988 0.947 0.987 
+   4   (0.173) 0.012 0.053 0.013 
+
+Locus 767 : SNP302 
+2 alleles
+0.0% missing data
+   3   (0.824) 0.988 0.996 0.833 
+   2   (0.176) 0.012 0.004 0.167 
+
+Locus 768 : SNP112 
+2 alleles
+0.0% missing data
+   1   (0.846) 0.989 0.981 0.989 
+   3   (0.154) 0.011 0.019 0.011 
+
+Locus 769 : SNP365 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.989 0.964 0.988 
+   1   (0.166) 0.011 0.036 0.012 
+
+Locus 770 : SNP281 
+2 alleles
+0.0% missing data
+   3   (0.183) 0.012 0.004 0.219 
+   4   (0.817) 0.988 0.996 0.781 
+
+Locus 771 : SNP205 
+2 alleles
+0.0% missing data
+   3   (0.817) 0.988 0.996 0.781 
+   1   (0.183) 0.012 0.004 0.219 
+
+Locus 772 : SNP148 
+2 alleles
+0.0% missing data
+   1   (0.812) 0.988 0.882 0.986 
+   4   (0.188) 0.012 0.118 0.014 
+
+Locus 773 : SNP189 
+2 alleles
+0.0% missing data
+   4   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 774 : SNP93 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 775 : SNP199 
+2 alleles
+0.0% missing data
+   4   (0.397) 0.026 0.221 0.647 
+   2   (0.603) 0.974 0.779 0.353 
+
+Locus 776 : SNP1279 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 777 : SNP86 
+3 alleles
+0.0% missing data
+   1   (0.715) 0.981 0.978 0.927 
+   3   (0.142) 0.010 0.019 0.011 
+   2   (0.143) 0.010 0.003 0.062 
+
+Locus 778 : SNP499 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 779 : SNP62 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 780 : SNP992 
+2 alleles
+0.0% missing data
+   3   (0.335) 0.023 0.007 0.950 
+   1   (0.665) 0.977 0.993 0.050 
+
+Locus 781 : SNP61 
+2 alleles
+0.0% missing data
+   4   (0.815) 0.346 0.991 0.986 
+   2   (0.185) 0.654 0.009 0.014 
+
+Locus 782 : SNP131 
+2 alleles
+0.0% missing data
+   4   (0.338) 0.023 0.007 0.951 
+   2   (0.662) 0.977 0.993 0.049 
+
+Locus 783 : SNP185 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 784 : SNP1044 
+2 alleles
+0.0% missing data
+   4   (0.751) 0.946 0.983 0.827 
+   2   (0.249) 0.054 0.017 0.173 
+
+Locus 785 : SNP127 
+2 alleles
+0.0% missing data
+   3   (0.545) 0.679 0.663 0.554 
+   1   (0.455) 0.321 0.337 0.446 
+
+Locus 786 : SNP462 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 787 : SNP304 
+2 alleles
+0.0% missing data
+   1   (0.287) 0.435 0.006 0.330 
+   3   (0.713) 0.565 0.994 0.670 
+
+Locus 788 : SNP477 
+2 alleles
+0.0% missing data
+   4   (0.805) 0.987 0.996 0.677 
+   1   (0.195) 0.013 0.004 0.323 
+
+Locus 789 : SNP170 
+2 alleles
+0.0% missing data
+   3   (0.796) 0.870 0.944 0.985 
+   1   (0.204) 0.130 0.056 0.015 
+
+Locus 790 : SNP171 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 791 : SNP46 
+2 alleles
+0.0% missing data
+   3   (0.834) 0.535 0.996 0.988 
+   2   (0.166) 0.465 0.004 0.012 
+
+Locus 792 : SNP212 
+2 alleles
+0.0% missing data
+   1   (0.810) 0.987 0.996 0.729 
+   2   (0.190) 0.013 0.004 0.271 
+
+Locus 793 : SNP188 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 794 : SNP67 
+2 alleles
+0.0% missing data
+   2   (0.499) 0.499 0.500 0.500 
+   1   (0.501) 0.501 0.500 0.500 
+
+Locus 795 : SNP595 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 796 : SNP80 
+2 alleles
+0.0% missing data
+   1   (0.532) 0.817 0.502 0.502 
+   2   (0.468) 0.183 0.498 0.498 
+
+Locus 797 : SNP227 
+2 alleles
+0.0% missing data
+   4   (0.811) 0.987 0.996 0.729 
+   2   (0.189) 0.013 0.004 0.271 
+
+Locus 798 : SNP561 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 799 : SNP308 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 800 : SNP18 
+2 alleles
+0.0% missing data
+   3   (0.687) 0.980 0.863 0.771 
+   4   (0.313) 0.020 0.137 0.229 
+
+Locus 801 : SNP810 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 802 : SNP101 
+2 alleles
+0.0% missing data
+   2   (0.243) 0.016 0.005 0.738 
+   3   (0.757) 0.984 0.995 0.262 
+
+Locus 803 : SNP1122 
+2 alleles
+0.0% missing data
+   3   (0.824) 0.988 0.996 0.833 
+   4   (0.176) 0.012 0.004 0.167 
+
+Locus 804 : SNP1231 
+2 alleles
+0.0% missing data
+   3   (0.803) 0.987 0.996 0.677 
+   1   (0.197) 0.013 0.004 0.323 
+
+Locus 805 : SNP296 
+2 alleles
+0.0% missing data
+   2   (0.834) 0.989 0.964 0.988 
+   4   (0.166) 0.011 0.036 0.012 
+
+Locus 806 : SNP1151 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 807 : SNP176 
+2 alleles
+0.0% missing data
+   2   (0.614) 0.944 0.542 0.714 
+   4   (0.386) 0.056 0.458 0.286 
+
+Locus 808 : SNP146 
+2 alleles
+0.0% missing data
+   2   (0.818) 0.158 0.996 0.986 
+   4   (0.182) 0.842 0.004 0.014 
+
+Locus 809 : SNP611 
+2 alleles
+0.0% missing data
+   2   (0.815) 0.988 0.898 0.986 
+   3   (0.185) 0.012 0.102 0.014 
+
+Locus 810 : SNP507 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 811 : SNP310 
+2 alleles
+0.0% missing data
+   4   (0.663) 0.496 0.914 0.924 
+   1   (0.337) 0.504 0.086 0.076 
+
+Locus 812 : SNP1937 
+2 alleles
+0.0% missing data
+   2   (0.818) 0.159 0.996 0.986 
+   4   (0.182) 0.841 0.004 0.014 
+
+Locus 813 : SNP443 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 814 : SNP827 
+2 alleles
+0.0% missing data
+   2   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 815 : SNP117 
+2 alleles
+0.0% missing data
+   2   (0.815) 0.988 0.996 0.781 
+   3   (0.185) 0.012 0.004 0.219 
+
+Locus 816 : SNP188 
+2 alleles
+0.0% missing data
+   4   (0.795) 0.987 0.766 0.985 
+   2   (0.205) 0.013 0.234 0.015 
+
+Locus 817 : SNP363 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 818 : SNP343 
+2 alleles
+0.0% missing data
+   1   (0.778) 0.985 0.979 0.932 
+   2   (0.222) 0.015 0.021 0.068 
+
+Locus 819 : SNP133 
+2 alleles
+0.0% missing data
+   1   (0.816) 0.988 0.996 0.781 
+   4   (0.184) 0.012 0.004 0.219 
+
+Locus 820 : SNP1570 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 821 : SNP117 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 822 : SNP560 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 823 : SNP472 
+3 alleles
+0.0% missing data
+   1   (0.717) 0.980 0.962 0.979 
+   4   (0.142) 0.010 0.019 0.011 
+   3   (0.141) 0.010 0.019 0.011 
+
+Locus 824 : SNP164 
+2 alleles
+0.0% missing data
+   4   (0.847) 0.990 0.981 0.988 
+   2   (0.153) 0.010 0.019 0.012 
+
+Locus 825 : SNP268 
+2 alleles
+0.0% missing data
+   4   (0.815) 0.988 0.898 0.986 
+   2   (0.185) 0.012 0.102 0.014 
+
+Locus 826 : SNP2360 
+2 alleles
+0.0% missing data
+   3   (0.823) 0.988 0.931 0.987 
+   1   (0.177) 0.012 0.069 0.013 
+
+Locus 827 : SNP344 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 828 : SNP482 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 829 : SNP94 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 830 : SNP901 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 831 : SNP139 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 832 : SNP326 
+3 alleles
+0.0% missing data
+   3   (0.180) 0.013 0.004 0.425 
+   1   (0.634) 0.952 0.865 0.561 
+   2   (0.186) 0.035 0.131 0.014 
+
+Locus 833 : SNP168 
+2 alleles
+0.0% missing data
+   1   (0.270) 0.018 0.022 0.329 
+   4   (0.730) 0.982 0.978 0.671 
+
+Locus 834 : SNP498 
+2 alleles
+0.0% missing data
+   2   (0.806) 0.987 0.996 0.677 
+   4   (0.194) 0.013 0.004 0.323 
+
+Locus 835 : SNP114 
+2 alleles
+0.0% missing data
+   3   (0.817) 0.988 0.996 0.781 
+   4   (0.183) 0.012 0.004 0.219 
+
+Locus 836 : SNP181 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 837 : SNP306 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 838 : SNP902 
+2 alleles
+0.0% missing data
+   1   (0.570) 0.698 0.564 0.762 
+   2   (0.430) 0.302 0.436 0.238 
+
+Locus 839 : SNP648 
+2 alleles
+0.0% missing data
+   1   (0.719) 0.981 0.896 0.876 
+   3   (0.281) 0.019 0.104 0.124 
+
+Locus 840 : SNP139 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 841 : SNP171 
+2 alleles
+0.0% missing data
+   2   (0.823) 0.988 0.996 0.833 
+   4   (0.177) 0.012 0.004 0.167 
+
+Locus 842 : SNP141 
+2 alleles
+0.0% missing data
+   4   (0.828) 0.989 0.947 0.987 
+   3   (0.172) 0.011 0.053 0.013 
+
+Locus 843 : SNP418 
+2 alleles
+0.0% missing data
+   3   (0.805) 0.987 0.996 0.677 
+   1   (0.195) 0.013 0.004 0.323 
+
+Locus 844 : SNP72 
+2 alleles
+0.0% missing data
+   4   (0.845) 0.989 0.980 0.988 
+   2   (0.155) 0.011 0.020 0.012 
+
+Locus 845 : SNP1260 
+2 alleles
+0.0% missing data
+   1   (0.509) 0.032 0.605 0.861 
+   2   (0.491) 0.968 0.395 0.139 
+
+Locus 846 : SNP654 
+2 alleles
+0.0% missing data
+   4   (0.549) 0.958 0.617 0.246 
+   3   (0.451) 0.042 0.383 0.754 
+
+Locus 847 : SNP784 
+2 alleles
+0.0% missing data
+   2   (0.184) 0.012 0.004 0.219 
+   4   (0.816) 0.988 0.996 0.781 
+
+Locus 848 : SNP159 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 849 : SNP851 
+2 alleles
+0.0% missing data
+   1   (0.499) 0.356 0.594 0.500 
+   3   (0.501) 0.644 0.406 0.500 
+
+Locus 850 : SNP1171 
+2 alleles
+0.0% missing data
+   3   (0.817) 0.985 0.915 0.986 
+   1   (0.183) 0.015 0.085 0.014 
+
+Locus 851 : SNP84 
+2 alleles
+0.0% missing data
+   3   (0.510) 0.479 0.534 0.552 
+   2   (0.490) 0.521 0.466 0.448 
+
+Locus 852 : SNP121 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.884 
+   1   (0.168) 0.011 0.004 0.116 
+
+Locus 853 : SNP225 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 854 : SNP183 
+2 alleles
+0.0% missing data
+   2   (0.625) 0.126 0.992 0.355 
+   4   (0.375) 0.874 0.008 0.645 
+
+Locus 855 : SNP287 
+2 alleles
+0.0% missing data
+   1   (0.684) 0.362 0.991 0.617 
+   3   (0.316) 0.638 0.009 0.383 
+
+Locus 856 : SNP234 
+2 alleles
+0.0% missing data
+   3   (0.763) 0.984 0.962 0.931 
+   1   (0.237) 0.016 0.038 0.069 
+
+Locus 857 : SNP102 
+2 alleles
+0.0% missing data
+   3   (0.816) 0.988 0.996 0.781 
+   1   (0.184) 0.012 0.004 0.219 
+
+Locus 858 : SNP1923 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 859 : SNP143 
+3 alleles
+0.0% missing data
+   4   (0.465) 0.723 0.544 0.549 
+   3   (0.403) 0.267 0.421 0.441 
+   2   (0.132) 0.009 0.035 0.010 
+
+Locus 860 : SNP444 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 861 : SNP150 
+2 alleles
+0.0% missing data
+   3   (0.808) 0.987 0.865 0.986 
+   1   (0.192) 0.013 0.135 0.014 
+
+Locus 862 : SNP1816 
+2 alleles
+0.0% missing data
+   2   (0.796) 0.969 0.835 0.985 
+   4   (0.204) 0.031 0.165 0.015 
+
+Locus 863 : SNP482 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 864 : SNP32 
+3 alleles
+0.0% missing data
+   3   (0.694) 0.977 0.896 0.977 
+   1   (0.166) 0.011 0.085 0.012 
+   2   (0.140) 0.012 0.019 0.011 
+
+Locus 865 : SNP414 
+2 alleles
+0.0% missing data
+   1   (0.802) 0.987 0.816 0.985 
+   4   (0.198) 0.013 0.184 0.015 
+
+Locus 866 : SNP56 
+2 alleles
+0.0% missing data
+   3   (0.824) 0.988 0.996 0.833 
+   1   (0.176) 0.012 0.004 0.167 
+
+Locus 867 : SNP66 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 868 : SNP11 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 869 : SNP115 
+2 alleles
+0.0% missing data
+   3   (0.195) 0.013 0.004 0.323 
+   1   (0.805) 0.987 0.996 0.677 
+
+Locus 870 : SNP50 
+2 alleles
+0.0% missing data
+   3   (0.421) 0.026 0.488 0.545 
+   1   (0.579) 0.974 0.512 0.455 
+
+Locus 871 : SNP587 
+2 alleles
+0.0% missing data
+   2   (0.816) 0.921 0.971 0.986 
+   4   (0.184) 0.079 0.029 0.014 
+
+Locus 872 : SNP527 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 873 : SNP35 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 874 : SNP408 
+2 alleles
+0.0% missing data
+   4   (0.228) 0.015 0.005 0.634 
+   3   (0.772) 0.985 0.995 0.366 
+
+Locus 875 : SNP37 
+4 alleles
+0.0% missing data
+   3   (0.533) 0.439 0.923 0.965 
+   2   (0.136) 0.010 0.035 0.010 
+   4   (0.127) 0.153 0.006 0.009 
+   1   (0.204) 0.398 0.036 0.015 
+
+Locus 876 : SNP110 
+2 alleles
+0.0% missing data
+   2   (0.796) 0.868 0.944 0.985 
+   1   (0.204) 0.132 0.056 0.015 
+
+Locus 877 : SNP642 
+2 alleles
+0.0% missing data
+   1   (0.168) 0.011 0.004 0.115 
+   3   (0.832) 0.989 0.996 0.885 
+
+Locus 878 : SNP96 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 879 : SNP342 
+2 alleles
+0.0% missing data
+   4   (0.337) 0.023 0.007 0.950 
+   2   (0.663) 0.977 0.993 0.050 
+
+Locus 880 : SNP806 
+2 alleles
+0.0% missing data
+   1   (0.595) 0.252 0.219 0.970 
+   3   (0.405) 0.748 0.781 0.030 
+
+Locus 881 : SNP150 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 882 : SNP1073 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 883 : SNP572 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 884 : SNP132 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 885 : SNP559 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 886 : SNP285 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 887 : SNP232 
+1 alleles
+0.0% missing data
+   3   (1.000) 1.000 1.000 1.000 
+
+Locus 888 : SNP133 
+2 alleles
+0.0% missing data
+   2   (0.712) 0.904 0.969 0.824 
+   1   (0.288) 0.096 0.031 0.176 
+
+Locus 889 : SNP27 
+2 alleles
+0.0% missing data
+   4   (0.705) 0.387 0.849 0.978 
+   2   (0.295) 0.613 0.151 0.022 
+
+Locus 890 : SNP175 
+2 alleles
+0.0% missing data
+   4   (0.800) 0.987 0.816 0.985 
+   1   (0.200) 0.013 0.184 0.015 
+
+Locus 891 : SNP292 
+2 alleles
+0.0% missing data
+   2   (0.830) 0.345 0.996 0.987 
+   4   (0.170) 0.655 0.004 0.013 
+
+Locus 892 : SNP123 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 893 : SNP241 
+2 alleles
+0.0% missing data
+   4   (0.834) 0.989 0.964 0.988 
+   3   (0.166) 0.011 0.036 0.012 
+
+Locus 894 : SNP143 
+2 alleles
+0.0% missing data
+   4   (0.660) 0.963 0.767 0.769 
+   2   (0.340) 0.037 0.233 0.231 
+
+Locus 895 : SNP93 
+2 alleles
+0.0% missing data
+   2   (0.573) 0.521 0.501 0.865 
+   4   (0.427) 0.479 0.499 0.135 
+
+Locus 896 : SNP79 
+1 alleles
+0.0% missing data
+   1   (1.000) 1.000 1.000 1.000 
+
+Locus 897 : SNP320 
+2 alleles
+0.0% missing data
+   3   (0.836) 0.989 0.964 0.988 
+   1   (0.164) 0.011 0.036 0.012 
+
+Locus 898 : SNP195 
+1 alleles
+0.0% missing data
+   2   (1.000) 1.000 1.000 1.000 
+
+Locus 899 : SNP661 
+2 alleles
+0.0% missing data
+   3   (0.386) 0.062 0.377 0.337 
+   2   (0.614) 0.938 0.623 0.663 
+
+Locus 900 : SNP563 
+2 alleles
+0.0% missing data
+   3   (0.664) 0.917 0.951 0.563 
+   1   (0.336) 0.083 0.049 0.437 
+
+Locus 901 : SNP410 
+2 alleles
+0.0% missing data
+   4   (0.832) 0.989 0.996 0.885 
+   2   (0.168) 0.011 0.004 0.115 
+
+Locus 902 : SNP644 
+2 alleles
+0.0% missing data
+   4   (0.662) 0.979 0.730 0.769 
+   2   (0.338) 0.021 0.270 0.231 
+
+Locus 903 : SNP227 
+2 alleles
+0.0% missing data
+   4   (0.835) 0.989 0.964 0.988 
+   2   (0.165) 0.011 0.036 0.012 
+
+Locus 904 : SNP637 
+2 alleles
+0.0% missing data
+   4   (0.804) 0.987 0.996 0.677 
+   3   (0.196) 0.013 0.004 0.323 
+
+Locus 905 : SNP40 
+1 alleles
+0.0% missing data
+   4   (1.000) 1.000 1.000 1.000 
+
+Locus 906 : SNP58 
+2 alleles
+0.0% missing data
+   1   (0.763) 0.984 0.962 0.931 
+   2   (0.237) 0.016 0.038 0.069 
+
+Locus 907 : SNP62 
+2 alleles
+0.0% missing data
+   2   (0.822) 0.988 0.931 0.987 
+   1   (0.178) 0.012 0.069 0.013 
+
+Locus 908 : SNP1228 
+2 alleles
+0.0% missing data
+   3   (0.846) 0.808 0.996 0.989 
+   1   (0.154) 0.192 0.004 0.011 
+
+Locus 909 : SNP183 
+2 alleles
+0.0% missing data
+   3   (0.608) 0.940 0.575 0.662 
+   1   (0.392) 0.060 0.425 0.338 
+
+Locus 910 : SNP49 
+2 alleles
+0.0% missing data
+   2   (0.827) 0.988 0.947 0.987 
+   4   (0.173) 0.012 0.053 0.013 
+
+Values of parameters used in structure:
+DATAFILE=acrUlTen_111.STRUCTURE,	OUTFILE=./STR_RES/acrUlTen_111_K3,	NUMINDS=42,	NUMLOCI=910,	MISSING=-9,	LABEL=1,	POPDATA=0,	POPFLAG=0,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=3,	BURNIN=60000,	NUMREPS=340000,	USEPOPINFO=0,	INFERALPHA=1,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=500,	UPDATEFREQ=50,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=1,	PRINTLAMBDA=1,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.01000,	PRINTQHAT=0,	PRINTQSUM=1,	ALPHA=1.0000,	FREQSCORR=1,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=10.0000,	ALPHAPRIORA=1.0000,	ALPHAPRIORB=2.0000,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=0,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=0,	PHASED=0,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=0, 	LOCPRIORINIT=1.000000, 	LOCDATA=0, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1622635084,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	
