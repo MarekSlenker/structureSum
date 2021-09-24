@@ -1,6 +1,8 @@
 
 sumStructure <- function(inputFolder, outputFolder) {
   
+opar <- graphics::par(no.readonly = TRUE)
+  
 files = list.files(path = inputFolder, full.names = TRUE)
 
 Kmatrix = matrix(data = NA, nrow = length(files), ncol = 1)
@@ -167,7 +169,7 @@ plotDeltaK()
 dev.off()
 plotDeltaK()
 
-
+graphics::par(opar)
 }
 
 
